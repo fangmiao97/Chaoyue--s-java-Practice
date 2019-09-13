@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="" />
+    <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/MixedOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/SingletonDemo.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +28,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1P5xUXmSOSXmqijMvpKBSF7LGUQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fangmiao97.github.io" />
@@ -54,13 +68,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="CycleIntersection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.CycleIntersection" />
+  <component name="RunManager" selected="Application.MixedOrder">
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review.sorting.MergeSort" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="review.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review.sorting.MergeSort" />
+    <configuration name="MixedOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review.MixedOrder" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="review.sorting.*" />
+          <option name="PATTERN" value="review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,19 +135,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CycleIntersection" />
       <item itemvalue="Application.xunfei1" />
       <item itemvalue="Application.ShellSort" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.MixedOrder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MixedOrder" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.xunfei1" />
-        <item itemvalue="Application.CycleIntersection" />
       </list>
     </recent_temporary>
   </component>
@@ -172,12 +186,23 @@
       <workItem from="1568126149154" duration="682000" />
       <workItem from="1568199064932" duration="3825000" />
       <workItem from="1568303715533" duration="79000" />
-      <workItem from="1568303904318" duration="642000" />
+      <workItem from="1568303904318" duration="6422000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaPractice$MutilClientDemo.ic" NAME="MutilClientDemo Coverage Results" MODIFIED="1565445636687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
