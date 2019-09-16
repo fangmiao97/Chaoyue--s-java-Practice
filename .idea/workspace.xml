@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/MixedOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/MaxWeightEdge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/sorting/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/sorting/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/SingletonDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/SingletonDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/SingletonDemo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,9 +68,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MixedOrder">
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review.sorting.MergeSort" />
+  <component name="RunManager" selected="Application.MaxWeightEdge">
+    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review.sorting.CountingSort" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
@@ -82,21 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MixedOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review.MixedOrder" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review.sorting.QuickSort" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review.sorting.HeapSort" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
@@ -108,21 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review.sorting.ShellSort" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="review.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="xunfei1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.xunfei1" />
+    <configuration name="MaxWeightEdge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.MaxWeightEdge" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
@@ -134,20 +108,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Robot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.Robot" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.mina.Server" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.mina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.xunfei1" />
-      <item itemvalue="Application.ShellSort" />
-      <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.MixedOrder" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.CountingSort" />
+      <item itemvalue="Application.Robot" />
+      <item itemvalue="Application.MaxWeightEdge" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MixedOrder" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.xunfei1" />
+        <item itemvalue="Application.MaxWeightEdge" />
+        <item itemvalue="Application.Robot" />
+        <item itemvalue="Application.CountingSort" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +186,8 @@
       <workItem from="1568126149154" duration="682000" />
       <workItem from="1568199064932" duration="3825000" />
       <workItem from="1568303715533" duration="79000" />
-      <workItem from="1568303904318" duration="6422000" />
+      <workItem from="1568303904318" duration="7847000" />
+      <workItem from="1568439895760" duration="13623000" />
     </task>
     <servers />
   </component>
@@ -198,7 +199,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
