@@ -1,8 +1,6 @@
-package review;
+package ThreadTest;
 
 public class ThreadTest {
-
-
 
     public void go() {
         Runnable run = new Runnable() {

@@ -1,4 +1,4 @@
-package TreadTest;
+package ThreadTest;
 
 import java.util.ArrayList;
 import java.util.List;

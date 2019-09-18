@@ -1,12 +1,11 @@
-package TreadTest;
+package ThreadTest;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-//单例
-public class SinglePool {
+public class FixedPool {
     public static void main(String[] args) {
-        ExecutorService es = Executors.newSingleThreadExecutor();
+        ExecutorService es = Executors.newFixedThreadPool(3);//定长
         for (int i = 0; i < 100; i++) {
             es.execute(new Runnable() {
                 @Override
@@ -16,6 +15,5 @@ public class SinglePool {
             });
         }
         es.shutdown();
-        
     }
 }

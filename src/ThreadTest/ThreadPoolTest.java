@@ -1,4 +1,4 @@
-package TreadTest;
+package ThreadTest;
 
 import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.ThreadPoolExecutor;
