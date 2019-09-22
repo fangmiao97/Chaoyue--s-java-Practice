@@ -2,31 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ThreadTest/JoinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreadTest/JoinTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/review/sorting/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Tencent/BestTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Tencent/MinNoZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/Tencent/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/WeBank1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/WeBank2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/shangtang/BallMove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/shangtang/MaxInCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/shangtang/SalaryTransfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/zoom/BuildingBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/zoom/DeleteZeroInStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadTest/FutureTaskTEst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/CharArrayAndString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/ClassExe/InnerClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/InterfaceAndClass/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/InterfaceAndClass/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/review/InterfaceAndClass/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/TreadTest/CachePool$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/TreadTest/CachePool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/TreadTest/CallTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/TreadTest/CallTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/TreadTest/FixedPool$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/TreadTest/FixedPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/TreadTest/SchedulePool$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/TreadTest/SchedulePool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/TreadTest/SinglePool$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/TreadTest/SinglePool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/TreadTest/TestThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/TreadTest/ThreadPoolTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ThreadTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ThreadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreadTest/CachePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/CachePool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreadTest/CallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/CallTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreadTest/FixedPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/FixedPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreadTest/SchedulePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/SchedulePool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreadTest/SinglePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/SinglePool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreadTest/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/ThreadPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/CallTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/CallTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/CallTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/CallTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/JoinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/JoinTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadTest/CallTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/CallTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadTest/JoinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/JoinTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +40,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,7 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MessageWikiPro-backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fangmiao97.github.io" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -87,13 +85,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JoinTest2">
-    <configuration name="BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review.sorting.BucketSort" />
+  <component name="RunManager" selected="Application.BuildingBlocks">
+    <configuration name="BuildingBlocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.zoom.BuildingBlocks" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="review.sorting.*" />
+          <option name="PATTERN" value="LeetCode.zoom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.JoinTest" />
+    <configuration name="CharArrayAndString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review.CharArrayAndString" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadTest.*" />
+          <option name="PATTERN" value="review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.JoinTest2" />
+    <configuration name="DeleteZeroInStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.zoom.DeleteZeroInStr" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadTest.*" />
+          <option name="PATTERN" value="LeetCode.zoom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxWeightEdge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.MaxWeightEdge" />
+    <configuration name="InnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review.ClassExe.InnerClassTest" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="review.ClassExe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Robot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.Robot" />
+    <configuration name="SalaryTransfer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.shangtang.SalaryTransfer" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
+          <option name="PATTERN" value="LeetCode.shangtang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,19 +152,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Robot" />
-      <item itemvalue="Application.MaxWeightEdge" />
-      <item itemvalue="Application.BucketSort" />
-      <item itemvalue="Application.JoinTest" />
-      <item itemvalue="Application.JoinTest2" />
+      <item itemvalue="Application.SalaryTransfer" />
+      <item itemvalue="Application.InnerClassTest" />
+      <item itemvalue="Application.CharArrayAndString" />
+      <item itemvalue="Application.DeleteZeroInStr" />
+      <item itemvalue="Application.BuildingBlocks" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JoinTest2" />
-        <item itemvalue="Application.JoinTest" />
-        <item itemvalue="Application.BucketSort" />
-        <item itemvalue="Application.MaxWeightEdge" />
-        <item itemvalue="Application.Robot" />
+        <item itemvalue="Application.BuildingBlocks" />
+        <item itemvalue="Application.DeleteZeroInStr" />
+        <item itemvalue="Application.CharArrayAndString" />
+        <item itemvalue="Application.InnerClassTest" />
+        <item itemvalue="Application.SalaryTransfer" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +205,8 @@
       <workItem from="1568303715533" duration="79000" />
       <workItem from="1568303904318" duration="7847000" />
       <workItem from="1568439895760" duration="16516000" />
-      <workItem from="1568727163327" duration="13281000" />
+      <workItem from="1568727163327" duration="43718000" />
+      <workItem from="1569118970428" duration="4595000" />
     </task>
     <servers />
   </component>

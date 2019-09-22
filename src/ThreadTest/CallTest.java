@@ -6,6 +6,9 @@ import java.util.concurrent.*;
 
 import static java.util.concurrent.Executors.newFixedThreadPool;
 
+/**
+ * callable一般搭配ExecutorService来使用
+ */
 public class CallTest {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         ExecutorService es = newFixedThreadPool(3);
