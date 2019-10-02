@@ -14,7 +14,8 @@ public class SchedulePool {
                 public void run() {
                     System.out.println(Thread.currentThread().getName());
                 }
-            }, 3, TimeUnit.SECONDS);
+            }, 3, TimeUnit.SECONDS);//这里是与fixedThreadPool有区别的地方
+            //会delay 3s 再执行
         }
         ses.shutdown();
     }

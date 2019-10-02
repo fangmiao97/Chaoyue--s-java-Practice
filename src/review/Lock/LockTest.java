@@ -1,4 +1,4 @@
-package review;
+package review.Lock;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class LockTest {
 
     private List<Integer> list = new ArrayList<>();
-    private Lock lock = new ReentrantLock();
+    private ReentrantLock lock = new ReentrantLock();
     public static void main(String[] args) {
         final LockTest test = new LockTest();
 
@@ -32,6 +32,7 @@ public class LockTest {
         lock.lock();
         try {
             System.out.println(thread.getName() + "获得了锁");
+            System.out.println("get hold count: " + lock.getHoldCount());
             for (int i = 0; i < 5000; i++) {
                 list.add(i);
             }

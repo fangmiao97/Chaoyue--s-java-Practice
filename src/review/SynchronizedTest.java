@@ -3,6 +3,8 @@ package review;
 import com.sun.org.apache.xerces.internal.util.SymbolHash;
 
 public class SynchronizedTest {
+    
+
     public synchronized void method1() throws InterruptedException {
         System.out.println("Method 1 started");
         System.out.println("Method 1 executing");

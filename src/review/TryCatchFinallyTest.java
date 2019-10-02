@@ -14,7 +14,7 @@ public class TryCatchFinallyTest {
             sRet += "catch_";
             return;
         }finally {
-            sRet += "finally";//catch中有return，当执行完finall中的语句就不会往下执行了
+            sRet += "finally";//catch中有return，当执行完finally中的语句就不会往下执行了
         }
 
         sRet += "_blockEnd;";

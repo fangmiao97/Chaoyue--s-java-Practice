@@ -13,5 +13,8 @@ public class IntTest {
         System.out.println(bin + "\n" + oct + "\n" + hex);
         System.out.println(Integer.rotateLeft(1024, 2));
 
+        int b = '1';
+        System.out.println(b);
+
     }
 }

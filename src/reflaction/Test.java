@@ -31,7 +31,7 @@ public class Test {
             System.out.println("属性名" + f.getName());
         }
 
-        //操作熟悉，包括private
+        //操作属性，包括private
         Field name = clz.getDeclaredField("name");
         name.setAccessible(true);//private设置权限
         name.set(stu, "RINA");
