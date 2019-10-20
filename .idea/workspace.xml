@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/PrintInOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consumerAndProductor/CAPBlockingQueueImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/ThreadTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/ThreadTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/ThreadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadTest/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/GrandParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/GrandParent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Me.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Me.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/ClassExe/StaticBlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/ClassExe/StaticBlockTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MessageWikiPro-backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fangmiao97.github.io" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -68,13 +70,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LockTest">
-    <configuration name="FutureTaskTEst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.FutureTaskTEst" />
+  <component name="RunManager" selected="Application.CAPBlockingQueueImpl">
+    <configuration name="CAPBlockingQueueImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consumerAndProductor.CAPBlockingQueueImpl" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadTest.*" />
+          <option name="PATTERN" value="consumerAndProductor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglePool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.SinglePool" />
+    <configuration name="StaticBlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review.ClassExe.StaticBlockTest" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadTest.*" />
+          <option name="PATTERN" value="review.ClassExe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review.WrapperClassTest" />
+    <configuration name="process" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consumerAndProductor.process" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="review.*" />
+          <option name="PATTERN" value="consumerAndProductor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,18 +138,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.LockTest" />
-      <item itemvalue="Application.WrapperClassTest" />
-      <item itemvalue="Application.FutureTaskTEst" />
-      <item itemvalue="Application.SinglePool" />
       <item itemvalue="Application.ThreadTest" />
+      <item itemvalue="Application.StaticBlockTest" />
+      <item itemvalue="Application.process" />
+      <item itemvalue="Application.CAPBlockingQueueImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CAPBlockingQueueImpl" />
+        <item itemvalue="Application.process" />
+        <item itemvalue="Application.StaticBlockTest" />
         <item itemvalue="Application.LockTest" />
         <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.SinglePool" />
-        <item itemvalue="Application.FutureTaskTEst" />
-        <item itemvalue="Application.WrapperClassTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +198,8 @@
       <workItem from="1569597048709" duration="14186000" />
       <workItem from="1570634961223" duration="559000" />
       <workItem from="1570670734650" duration="211000" />
-      <workItem from="1570670964911" duration="2520000" />
+      <workItem from="1570670964911" duration="7651000" />
+      <workItem from="1571402034237" duration="10134000" />
     </task>
     <servers />
   </component>
