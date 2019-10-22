@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/consumerAndProductor/CAPBlockingQueueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadTest/ExeInvokeAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadTest/completionServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/GrandParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/GrandParent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Me.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Me.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/ClassExe/StaticBlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/ClassExe/StaticBlockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/sorting/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/sorting/ShellSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +28,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -44,6 +46,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../fangmiao97.github.io" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -51,6 +56,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ThreadTest" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="network" />
     </key>
@@ -70,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CAPBlockingQueueImpl">
+  <component name="RunManager" selected="Application.completionServiceTest">
     <configuration name="CAPBlockingQueueImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="consumerAndProductor.CAPBlockingQueueImpl" />
       <module name="javaPractice" />
@@ -84,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review.Lock.LockTest" />
+    <configuration name="ExeInvokeAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest.ExeInvokeAll" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="review.Lock.*" />
+          <option name="PATTERN" value="ThreadTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticBlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review.ClassExe.StaticBlockTest" />
+    <configuration name="FutureTaskTEst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest.FutureTaskTEst" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="review.ClassExe.*" />
+          <option name="PATTERN" value="ThreadTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.ThreadTest" />
+    <configuration name="completionServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest.completionServiceTest" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
@@ -137,19 +148,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LockTest" />
-      <item itemvalue="Application.ThreadTest" />
-      <item itemvalue="Application.StaticBlockTest" />
       <item itemvalue="Application.process" />
       <item itemvalue="Application.CAPBlockingQueueImpl" />
+      <item itemvalue="Application.FutureTaskTEst" />
+      <item itemvalue="Application.ExeInvokeAll" />
+      <item itemvalue="Application.completionServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.completionServiceTest" />
+        <item itemvalue="Application.ExeInvokeAll" />
+        <item itemvalue="Application.FutureTaskTEst" />
         <item itemvalue="Application.CAPBlockingQueueImpl" />
         <item itemvalue="Application.process" />
-        <item itemvalue="Application.StaticBlockTest" />
-        <item itemvalue="Application.LockTest" />
-        <item itemvalue="Application.ThreadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +210,8 @@
       <workItem from="1570634961223" duration="559000" />
       <workItem from="1570670734650" duration="211000" />
       <workItem from="1570670964911" duration="7651000" />
-      <workItem from="1571402034237" duration="10134000" />
+      <workItem from="1571402034237" duration="12239000" />
+      <workItem from="1571645314886" duration="15651000" />
     </task>
     <servers />
   </component>
