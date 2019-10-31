@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ThreadTest/ExeInvokeAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThreadTest/completionServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/ClientUsingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/ConcreteProductA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/ConcreteProductB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/XMLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/huawei/BashCovert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/huawei/CriclePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/huawei/Gift.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/sorting/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaPractice.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +33,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,11 +66,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ThreadTest" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DesignPatterns.SimpleFactroyPattern" />
+      <recent name="network" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="network" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyProject\javaPractice\libs" />
@@ -81,13 +89,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.completionServiceTest">
-    <configuration name="CAPBlockingQueueImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="consumerAndProductor.CAPBlockingQueueImpl" />
+  <component name="RunManager" selected="Application.CriclePath">
+    <configuration name="BashCovert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.huawei.BashCovert" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="consumerAndProductor.*" />
+          <option name="PATTERN" value="LeetCode.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExeInvokeAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.ExeInvokeAll" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.SimpleFactroyPattern.Client" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadTest.*" />
+          <option name="PATTERN" value="DesignPatterns.SimpleFactroyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +116,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FutureTaskTEst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.FutureTaskTEst" />
+    <configuration name="ClientUsingConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.SimpleFactroyPattern.ClientUsingConfig" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadTest.*" />
+          <option name="PATTERN" value="DesignPatterns.SimpleFactroyPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CriclePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.huawei.CriclePath" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,33 +155,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="process" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="consumerAndProductor.process" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="consumerAndProductor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.process" />
-      <item itemvalue="Application.CAPBlockingQueueImpl" />
-      <item itemvalue="Application.FutureTaskTEst" />
-      <item itemvalue="Application.ExeInvokeAll" />
       <item itemvalue="Application.completionServiceTest" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.ClientUsingConfig" />
+      <item itemvalue="Application.BashCovert" />
+      <item itemvalue="Application.CriclePath" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CriclePath" />
+        <item itemvalue="Application.BashCovert" />
+        <item itemvalue="Application.ClientUsingConfig" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.completionServiceTest" />
-        <item itemvalue="Application.ExeInvokeAll" />
-        <item itemvalue="Application.FutureTaskTEst" />
-        <item itemvalue="Application.CAPBlockingQueueImpl" />
-        <item itemvalue="Application.process" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +219,11 @@
       <workItem from="1570670734650" duration="211000" />
       <workItem from="1570670964911" duration="7651000" />
       <workItem from="1571402034237" duration="12239000" />
-      <workItem from="1571645314886" duration="15651000" />
+      <workItem from="1571645314886" duration="16657000" />
+      <workItem from="1571799251403" duration="1313000" />
+      <workItem from="1571876607589" duration="1409000" />
+      <workItem from="1572312628417" duration="4505000" />
+      <workItem from="1572439734097" duration="7543000" />
     </task>
     <servers />
   </component>
