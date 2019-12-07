@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/HuaweiTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/HuaweiTVFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/SamsungTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/SamsungTVFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/TVFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/XMLUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/AndroidFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/AndroidInterfaceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/AndroidOperationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/ControllerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/InterfaceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/OperationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/SymbianFactroy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/SymbianInterfaceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/SymbianOperationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/XMLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +81,7 @@
       <recent name="D:\MyProject\javaPractice\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="BashCovert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.huawei.BashCovert" />
       <module name="javaPractice" />
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.SimpleFactroyPattern.Client" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.AbstrctFactory.Client" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.SimpleFactroyPattern.*" />
+          <option name="PATTERN" value="DesignPatterns.AbstrctFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,19 +148,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
       <item itemvalue="Application.ClientUsingConfig" />
       <item itemvalue="Application.BashCovert" />
       <item itemvalue="Application.CriclePath" />
       <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.CriclePath" />
         <item itemvalue="Application.BashCovert" />
         <item itemvalue="Application.ClientUsingConfig" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +234,7 @@
       <workItem from="1575098298581" duration="266000" />
       <workItem from="1575541728425" duration="1423000" />
       <workItem from="1575561630588" duration="282000" />
+      <workItem from="1575685050010" duration="6869000" />
     </task>
     <servers />
   </component>
@@ -251,6 +255,14 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1575697904886">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1575697904886" />
+    <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575696850580">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1575696850580" />
     <state x="432" y="227" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575098259741">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -259,6 +271,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1575543610513" />
+    <state x="414" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1575697917007">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="414" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1575697917007" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaPractice$MutilClientDemo.ic" NAME="MutilClientDemo Coverage Results" MODIFIED="1565445636687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
