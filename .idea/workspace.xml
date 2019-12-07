@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/ClientUsingConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/ConcreteProductA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/ConcreteProductB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/XMLUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/SimpleFactroyPattern/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/huawei/BashCovert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/huawei/CriclePath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/huawei/Gift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/HuaweiTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/HuaweiTVFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/SamsungTV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/SamsungTVFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/TVFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/XMLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FactoryPattern/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaPractice.iml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Tag Library Descriptor" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,6 +44,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -56,7 +56,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fangmiao97.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -66,36 +66,38 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ThreadTest" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="DesignPatterns.SimpleFactroyPattern" />
-      <recent name="network" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DesignPatterns.FactoryPattern" />
+      <recent name="DesignPatterns.SimpleFactroyPattern" />
+      <recent name="network" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyProject\javaPractice\libs" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.CriclePath">
+  <component name="RunManager" selected="Application.Client (1)">
     <configuration name="BashCovert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.huawei.BashCovert" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="LeetCode.huawei.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.FactoryPattern.Client" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.FactoryPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,35 +144,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="completionServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.completionServiceTest" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ThreadTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.completionServiceTest" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.ClientUsingConfig" />
       <item itemvalue="Application.BashCovert" />
       <item itemvalue="Application.CriclePath" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.CriclePath" />
         <item itemvalue="Application.BashCovert" />
         <item itemvalue="Application.ClientUsingConfig" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.completionServiceTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -223,7 +224,13 @@
       <workItem from="1571799251403" duration="1313000" />
       <workItem from="1571876607589" duration="1409000" />
       <workItem from="1572312628417" duration="4505000" />
-      <workItem from="1572439734097" duration="7543000" />
+      <workItem from="1572439734097" duration="10492000" />
+      <workItem from="1575097944686" duration="30000" />
+      <workItem from="1575098027100" duration="52000" />
+      <workItem from="1575098250327" duration="23000" />
+      <workItem from="1575098298581" duration="266000" />
+      <workItem from="1575541728425" duration="1423000" />
+      <workItem from="1575561630588" duration="282000" />
     </task>
     <servers />
   </component>
@@ -242,6 +249,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="432" y="227" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575098259741">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="432" y="227" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1575098259741" />
+    <state x="531" y="255" key="FileChooserDialogImpl" timestamp="1575543610513">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1575543610513" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaPractice$MutilClientDemo.ic" NAME="MutilClientDemo Coverage Results" MODIFIED="1565445636687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
