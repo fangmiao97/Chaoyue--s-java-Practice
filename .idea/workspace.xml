@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/AndroidFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/AndroidInterfaceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/AndroidOperationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/ControllerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/InterfaceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/OperationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/SymbianFactroy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/SymbianInterfaceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/SymbianOperationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/XMLUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/IoDHSingletonLoadBalancer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/SingletonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/DCLSingletonDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +53,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -81,7 +71,7 @@
       <recent name="D:\MyProject\javaPractice\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.IoDHSingletonLoadBalancer">
     <configuration name="BashCovert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.huawei.BashCovert" />
       <module name="javaPractice" />
@@ -121,19 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientUsingConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.SimpleFactroyPattern.ClientUsingConfig" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DesignPatterns.SimpleFactroyPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CriclePath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode.huawei.CriclePath" />
       <module name="javaPractice" />
@@ -147,20 +124,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IoDHSingletonLoadBalancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.IoDHSingletonLoadBalancer" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.ClientUsingConfig" />
       <item itemvalue="Application.BashCovert" />
       <item itemvalue="Application.CriclePath" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.IoDHSingletonLoadBalancer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IoDHSingletonLoadBalancer" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.CriclePath" />
         <item itemvalue="Application.BashCovert" />
-        <item itemvalue="Application.ClientUsingConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +224,7 @@
       <workItem from="1575098298581" duration="266000" />
       <workItem from="1575541728425" duration="1423000" />
       <workItem from="1575561630588" duration="282000" />
-      <workItem from="1575685050010" duration="6869000" />
+      <workItem from="1575685050010" duration="14171000" />
     </task>
     <servers />
   </component>
@@ -267,14 +257,38 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="432" y="227" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1575098259741" />
-    <state x="531" y="255" key="FileChooserDialogImpl" timestamp="1575543610513">
+    <state x="531" y="255" key="FileChooserDialogImpl" timestamp="1575731767669">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1575543610513" />
-    <state x="414" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1575697917007">
+    <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1575731767669" />
+    <state width="1457" height="162" key="GridCell.Tab.0.bottom" timestamp="1575779530536">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="414" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1575697917007" />
+    <state width="1457" height="162" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1575779530536" />
+    <state width="1457" height="162" key="GridCell.Tab.0.center" timestamp="1575779530536">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state width="1457" height="162" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1575779530536" />
+    <state width="1457" height="162" key="GridCell.Tab.0.left" timestamp="1575779530536">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state width="1457" height="162" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1575779530536" />
+    <state width="1457" height="162" key="GridCell.Tab.0.right" timestamp="1575779530536">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state width="1457" height="162" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1575779530536" />
+    <state x="252" y="142" key="SettingsEditor" timestamp="1575731955176">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="252" y="142" key="SettingsEditor/0.0.1500.1000@0.0.1500.1000" timestamp="1575731955176" />
+    <state x="125" y="109" key="new project wizard" timestamp="1575732769720">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="125" y="109" key="new project wizard/0.0.1500.1000@0.0.1500.1000" timestamp="1575732769720" />
+    <state x="416" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1575779062411">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="416" y="219" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1575779062411" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaPractice$MutilClientDemo.ic" NAME="MutilClientDemo Coverage Results" MODIFIED="1565445636687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
