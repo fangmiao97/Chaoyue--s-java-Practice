@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/DisplyDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/FullModeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/InterfaceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/InterfaceDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/MemoryModeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/SimplyModeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/Cipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/CipherAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/DataOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/IoDHSingletonLoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/IoDHSingletonLoadBalancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/BuilderPattern/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/BuilderPattern/Client.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +74,26 @@
       <recent name="D:\MyProject\javaPractice\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.BuilderPattern.Client" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DesignPatterns.BuilderPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.AdapterPattern.Client" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.AdapterPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,19 +127,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IoDHSingletonLoadBalancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.IoDHSingletonLoadBalancer" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DesignPatterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WithPrototypeManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Prototype.WithPrototypeManager.WithPrototypeManager" />
       <module name="javaPractice" />
@@ -144,19 +141,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IoDHSingletonLoadBalancer" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.WithPrototypeManager" />
       <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Client (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.WithPrototypeManager" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.IoDHSingletonLoadBalancer" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +228,7 @@
       <workItem from="1575541728425" duration="1423000" />
       <workItem from="1575561630588" duration="282000" />
       <workItem from="1575685050010" duration="26885000" />
-      <workItem from="1576026701231" duration="335000" />
+      <workItem from="1576026701231" duration="3150000" />
     </task>
     <servers />
   </component>
@@ -252,10 +249,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1575953212948">
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1576036028371">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1575953212948" />
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1576036028371" />
     <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575696850580">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -268,22 +265,22 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1575857972506" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1575953687348">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1576036214260">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1575953687348" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1575953687347">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1576036214259" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1576036214259">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1575953687347" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1575953687346">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1576036214259" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1576036214259">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1575953687346" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1575953687347">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1576036214259" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1576036214259">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1575953687347" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576036214259" />
     <state x="252" y="142" key="SettingsEditor" timestamp="1575731955176">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
