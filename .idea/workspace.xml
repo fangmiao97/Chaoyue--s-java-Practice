@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/DeepClone/Attachment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/DeepClone/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/DeepClone/WeeklyLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/WithPrototypeManager/WithPrototypeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/generalShallowClone/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Prototype/generalShallowClone/WeeklyLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/DisplyDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/FullModeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/InterfaceBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/InterfaceDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/MemoryModeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/SimplyModeBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/IoDHSingletonLoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/IoDHSingletonLoadBalancer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,13 +77,13 @@
       <recent name="D:\MyProject\javaPractice\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WithPrototypeManager">
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.AbstrctFactory.Client" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.BuilderPattern.Client" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.AbstrctFactory.*" />
+          <option name="PATTERN" value="DesignPatterns.BuilderPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +144,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.IoDHSingletonLoadBalancer" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.WithPrototypeManager" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.WithPrototypeManager" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.IoDHSingletonLoadBalancer" />
-        <item itemvalue="Application.Client (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +230,8 @@
       <workItem from="1575098298581" duration="266000" />
       <workItem from="1575541728425" duration="1423000" />
       <workItem from="1575561630588" duration="282000" />
-      <workItem from="1575685050010" duration="22486000" />
+      <workItem from="1575685050010" duration="26885000" />
+      <workItem from="1576026701231" duration="335000" />
     </task>
     <servers />
   </component>
@@ -249,10 +252,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1575879132180">
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1575953212948">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1575879132180" />
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1575953212948" />
     <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575696850580">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -265,22 +268,22 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1575857972506" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1575880169393">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1575953687348">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1575880169393" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1575880169392">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1575953687348" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1575953687347">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1575880169392" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1575880169392">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1575953687347" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1575953687346">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1575880169392" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1575880169392">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1575953687346" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1575953687347">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1575880169392" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1575953687347" />
     <state x="252" y="142" key="SettingsEditor" timestamp="1575731955176">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -289,6 +292,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="125" y="109" key="new project wizard/0.0.1500.1000@0.0.1500.1000" timestamp="1575732769720" />
+    <state x="409" y="232" key="run.anything.popup" timestamp="1575953208552">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="409" y="232" key="run.anything.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1575953208552" />
     <state x="417" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1575879385893">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>

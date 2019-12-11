@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * initialization-on demand
+ * initialization-on demand Holder
  * 实现一个负载均衡器Load Balancer
  * 当一个类被jvm加载的时候，会经历初始化的过程。
  *
