@@ -1,0 +1,6 @@
+<config>
+    <!--RefinedAbstraction-->
+    <className>DesignPatterns.BridgePattern.MongoDBData</className>
+    <!--concreteImplemention-->
+    <className>DesignPatterns.BridgePattern.pdfImp</className>
+</config>
