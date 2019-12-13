@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BridgePattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BridgePattern/DatabaseData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BridgePattern/FormatImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BridgePattern/MongoDBData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BridgePattern/MysqlData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BridgePattern/XMLUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BridgePattern/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BridgePattern/pdfImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/BridgePattern/txtImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CompositePattern/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CompositePattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CompositePattern/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CompositePattern/MidPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CompositePattern/Textbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CompositePattern/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +57,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -78,7 +75,7 @@
       <recent name="D:\MyProject\javaPractice\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (4)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.BuilderPattern.Client" />
       <module name="javaPractice" />
@@ -105,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Prototype.DeepClone.Client" />
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.BridgePattern.Client" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Prototype.DeepClone.*" />
+          <option name="PATTERN" value="DesignPatterns.BridgePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.BridgePattern.Client" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.CompositePattern.Client" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.BridgePattern.*" />
+          <option name="PATTERN" value="DesignPatterns.CompositePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.WithPrototypeManager" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (4)" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.WithPrototypeManager" />
-        <item itemvalue="Application.Client (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +230,9 @@
       <workItem from="1575561630588" duration="282000" />
       <workItem from="1575685050010" duration="26885000" />
       <workItem from="1576026701231" duration="3853000" />
-      <workItem from="1576114763535" duration="3935000" />
+      <workItem from="1576114763535" duration="4297000" />
+      <workItem from="1576125186221" duration="161000" />
+      <workItem from="1576199235754" duration="5113000" />
     </task>
     <servers />
   </component>
@@ -254,10 +253,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1576123675546">
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1576209390061">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1576123675546" />
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1576209390061" />
     <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575696850580">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -270,26 +269,26 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1575857972506" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1576124977402">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1576212894590">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1576124977402" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1576124977402">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1576212894590" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1576212894590">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1576124977402" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1576124977401">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1576212894590" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1576212894589">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1576124977401" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1576124977402">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1576212894589" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1576212894590">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576124977402" />
-    <state x="252" y="142" key="SettingsEditor" timestamp="1575731955176">
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576212894590" />
+    <state x="252" y="142" key="SettingsEditor" timestamp="1576125143849">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="252" y="142" key="SettingsEditor/0.0.1500.1000@0.0.1500.1000" timestamp="1575731955176" />
+    <state x="252" y="142" key="SettingsEditor/0.0.1500.1000@0.0.1500.1000" timestamp="1576125143849" />
     <state x="125" y="109" key="new project wizard" timestamp="1575732769720">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
