@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FlyweightPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FlyweightPattern/Gif.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FlyweightPattern/InsertItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FlyweightPattern/InsertItemFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FlyweightPattern/ItemProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FlyweightPattern/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/FlyweightPattern/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ProxyPattern/AbstrctSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ProxyPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ProxyPattern/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ProxyPattern/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ProxyPattern/RealSubjectB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
       <recent name="D:\MyProject\javaPractice\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.FacadePattern.Client" />
       <module name="javaPractice" />
@@ -103,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.DecoratorPattern.Client" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.ProxyPattern.Client" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.DecoratorPattern.*" />
+          <option name="PATTERN" value="DesignPatterns.ProxyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,19 +141,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.ReverseLinkedList" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.RemoveDuplicate" />
       <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.RemoveDuplicate" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +231,7 @@
       <workItem from="1576026701231" duration="3853000" />
       <workItem from="1576114763535" duration="4297000" />
       <workItem from="1576125186221" duration="161000" />
-      <workItem from="1576199235754" duration="31781000" />
+      <workItem from="1576199235754" duration="34848000" />
     </task>
     <servers />
   </component>
@@ -254,10 +252,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1576499089848">
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1576559318382">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1576499089848" />
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1576559318382" />
     <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575696850580">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -270,22 +268,22 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1575857972506" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1576501793621">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1576559798060">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1576501793621" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1576501793620">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1576559798060" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1576559798060">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1576501793620" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1576501793619">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1576559798060" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1576559798059">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1576501793619" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1576501793621">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1576559798059" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1576559798060">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576501793621" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576559798060" />
     <state x="252" y="142" key="SettingsEditor" timestamp="1576498817521">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
