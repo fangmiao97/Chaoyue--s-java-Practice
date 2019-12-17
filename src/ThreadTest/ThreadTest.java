@@ -20,6 +20,7 @@ public class ThreadTest {
         test test = new test();
         Thread thread = new Thread(test);//和普通方法一样，还是在main线程中执行
         thread.run();
+
         thread.start();//这里用start才新开一个线程
         new ThreadTest().go();
     }

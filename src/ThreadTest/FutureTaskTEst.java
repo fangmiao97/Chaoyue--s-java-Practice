@@ -20,9 +20,10 @@ public class FutureTaskTEst {
 
         //方式二
         FutureTask<Integer> submitTask = new FutureTask<>(callableTask);
-        Thread thread = new Thread(submitTask);
+        Thread thread = new Thread(submitTask, "future task");//注意这一句
         thread.start();
 
+        System.out.println(Thread.currentThread().getName());
         System.out.println("main is working...");
 
         while (!submitTask.isDone()){
@@ -39,7 +40,7 @@ class CallableTask implements Callable<Integer> {
 
     @Override
     public Integer call() throws Exception {
-        System.out.println("Callable Task is working...");
+        System.out.println(Thread.currentThread().getName()+" is working...");
         Thread.sleep(1000);
         int sum = 0;
         for (int i = 0; i < 2019; i++) {

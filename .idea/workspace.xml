@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ProxyPattern/AbstrctSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ProxyPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ProxyPattern/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ProxyPattern/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ProxyPattern/RealSubjectB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThreadTest/RejectExecutionPolicy/AbortPolictTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/CallableTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/CallableTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/FutureTaskTEst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/FutureTaskTEst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/ThreadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/ThreadTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadTest/FutureTaskTEst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/FutureTaskTEst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadTest/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/ThreadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,20 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="206" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,13 +90,13 @@
       <recent name="D:\MyProject\javaPractice\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.FacadePattern.Client" />
+  <component name="RunManager" selected="Application.AbortPolictTest">
+    <configuration name="AbortPolictTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest.RejectExecutionPolicy.AbortPolictTest" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.FacadePattern.*" />
+          <option name="PATTERN" value="ThreadTest.RejectExecutionPolicy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.FlyweightPattern.Client" />
+    <configuration name="FixedPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest.FixedPool" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.FlyweightPattern.*" />
+          <option name="PATTERN" value="ThreadTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.ProxyPattern.Client" />
+    <configuration name="FutureTaskTEst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest.FutureTaskTEst" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.ProxyPattern.*" />
+          <option name="PATTERN" value="ThreadTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.RemoveDuplicate" />
+    <configuration name="IoDHSingletonLoadBalancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.IoDHSingletonLoadBalancer" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.LinkedList.*" />
+          <option name="PATTERN" value="DesignPatterns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.ReverseLinkedList" />
+    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review.Lock.LockTest" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.LinkedList.*" />
+          <option name="PATTERN" value="review.Lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,19 +157,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseLinkedList" />
-      <item itemvalue="Application.Client (1)" />
-      <item itemvalue="Application.RemoveDuplicate" />
-      <item itemvalue="Application.Client (2)" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.FutureTaskTEst" />
+      <item itemvalue="Application.LockTest" />
+      <item itemvalue="Application.IoDHSingletonLoadBalancer" />
+      <item itemvalue="Application.FixedPool" />
+      <item itemvalue="Application.AbortPolictTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.RemoveDuplicate" />
-        <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.AbortPolictTest" />
+        <item itemvalue="Application.FixedPool" />
+        <item itemvalue="Application.IoDHSingletonLoadBalancer" />
+        <item itemvalue="Application.LockTest" />
+        <item itemvalue="Application.FutureTaskTEst" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +247,7 @@
       <workItem from="1576026701231" duration="3853000" />
       <workItem from="1576114763535" duration="4297000" />
       <workItem from="1576125186221" duration="161000" />
-      <workItem from="1576199235754" duration="34848000" />
+      <workItem from="1576199235754" duration="46518000" />
     </task>
     <servers />
   </component>
@@ -252,10 +268,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1576559318382">
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1576572928017">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1576559318382" />
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1576572928017" />
     <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575696850580">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -264,26 +280,26 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="432" y="227" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1575098259741" />
-    <state x="531" y="255" key="FileChooserDialogImpl" timestamp="1575857972506">
+    <state x="531" y="255" key="FileChooserDialogImpl" timestamp="1576576929171">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1575857972506" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1576559798060">
+    <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1576576929171" />
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1576575120171">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1576559798060" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1576559798060">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1576575120171" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1576575120171">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1576559798060" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1576559798059">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1576575120171" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1576575120171">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1576559798059" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1576559798060">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1576575120171" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1576575120171">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576559798060" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576575120171" />
     <state x="252" y="142" key="SettingsEditor" timestamp="1576498817521">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -292,14 +308,18 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="125" y="109" key="new project wizard/0.0.1500.1000@0.0.1500.1000" timestamp="1575732769720" />
+    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1576576980606">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1576576980606" />
     <state x="409" y="232" key="run.anything.popup" timestamp="1575953208552">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="409" y="232" key="run.anything.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1575953208552" />
-    <state x="419" y="222" width="672" height="678" key="search.everywhere.popup" timestamp="1576314559325">
+    <state x="422" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1576576878623">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="419" y="222" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1576314559325" />
+    <state x="422" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1576576878623" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaPractice$MutilClientDemo.ic" NAME="MutilClientDemo Coverage Results" MODIFIED="1565445636687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
