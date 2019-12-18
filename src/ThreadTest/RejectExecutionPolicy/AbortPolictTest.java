@@ -28,7 +28,7 @@ public class AbortPolictTest {
                 keepActiveTime,
                 TimeUnit.SECONDS,
                 queue,
-                handler);
+                handler3);
 
         for (int i = 0; i < 100; i++) {
             executor.execute(new test());
