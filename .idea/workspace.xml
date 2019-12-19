@@ -2,111 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/BoardScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/CreateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/EditCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/CommandPattern/OpenCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/AndTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/AndTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ArrayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/AtomicTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/AtomicTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/AtomicTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/AtomicTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/BooleanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/BooleanTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/CharArrayAndString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/CharArrayAndString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/ClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/ClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/GrandParent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/GrandParent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/InnerClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/InnerClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Me.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Me.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Other.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Other.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Out$In.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Out$In.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Out.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Out.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Outer$Inter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Outer$Inter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Outer$noStaticInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Outer$noStaticInter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Outer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Outer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ExtendsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ExtendsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/IntTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/IntTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceAndClass/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceAndClass/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceAndClass/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceAndClass/B.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceAndClass/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceAndClass/C.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceAndClass/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceAndClass/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/LockTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/LockTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/LockTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/LockTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/LockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/LockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/WriteAndReadLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/WriteAndReadLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/LongTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/LongTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/MixedOrder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/MixedOrder$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/MixedOrder$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/MixedOrder$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/MixedOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/MixedOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/MoniterTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/MoniterTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/MoniterTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/MoniterTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/MoniterTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/MoniterTest$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/MoniterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/MoniterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/RegExpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/RegExpTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/StringBufferTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/reflaction/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/reflaction/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/reflaction/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/reflaction/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/TreeMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/TreeMapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/TreeSetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/TreeSetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/TryCatchFinallyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/TryCatchFinallyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/TypeConvertTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/TypeConvertTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/UnsafeInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/UnsafeInstance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/VolatileTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/VolatileTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/VolatileTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/VolatileTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/VolatileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/VolatileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/WrapperClassTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/WrapperClassTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/ArraySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/ArraySort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/BucketSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/BucketSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/CountingSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/CountingSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/ShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/ShellSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/AndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/AndTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/AtomicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/AtomicTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/BooleanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/BooleanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/CharArrayAndString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/CharArrayAndString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/ClassExe/ClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/ClassExe/ClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/ClassExe/InnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/ClassExe/InnerClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/ClassExe/StaticBlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/ClassExe/StaticBlockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/ExtendsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/ExtendsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/IntTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/IntTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/InterfaceAndClass/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/InterfaceAndClass/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/InterfaceAndClass/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/InterfaceAndClass/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/InterfaceAndClass/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/InterfaceAndClass/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/InterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/Lock/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/Lock/LockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/Lock/WriteAndReadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/Lock/WriteAndReadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/LongTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/LongTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/MixedOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/MixedOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/MoniterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/MoniterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/RegExpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/RegExpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/StringBufferTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/SynchronizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/TreeMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/TreeMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/TreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/TreeSetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/TryCatchFinallyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/TryCatchFinallyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/TypeConvertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/TypeConvertTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/UnsafeInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/UnsafeInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/VolatileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/VolatileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/WrapperClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/WrapperClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/ArraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/ArraySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/BucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/BucketSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/CountingSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/review/sorting/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reflaction/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflaction/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reflaction/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflaction/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +97,7 @@
       <recent name="D:\MyProject\javaPractice\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SynchronizedTest">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="AtomicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Review.AtomicTest" />
       <module name="javaPractice" />
@@ -201,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review.StringTest" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.CommandPattern.Client" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Review.*" />
+          <option name="PATTERN" value="DesignPatterns.CommandPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review.TreeMapTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflaction.Test" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Review.*" />
+          <option name="PATTERN" value="Reflaction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,19 +164,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringTest" />
-      <item itemvalue="Application.TreeMapTest" />
       <item itemvalue="Application.SynchronizedTest" />
       <item itemvalue="Application.VolatileTest" />
       <item itemvalue="Application.AtomicTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.SynchronizedTest" />
         <item itemvalue="Application.AtomicTest" />
         <item itemvalue="Application.VolatileTest" />
-        <item itemvalue="Application.TreeMapTest" />
-        <item itemvalue="Application.StringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +255,8 @@
       <workItem from="1576114763535" duration="4297000" />
       <workItem from="1576125186221" duration="161000" />
       <workItem from="1576199235754" duration="47665000" />
-      <workItem from="1576593024331" duration="15421000" />
+      <workItem from="1576593024331" duration="19517000" />
+      <workItem from="1576731558496" duration="2582000" />
     </task>
     <servers />
   </component>
@@ -366,10 +277,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1576660478002">
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1576733193164">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1576660478002" />
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1576733193164" />
     <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575696850580">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -382,22 +293,22 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1576658133268" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1576667097348">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1576734125462">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1576667097348" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1576667097348">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1576734125462" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1576734125461">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1576667097348" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1576667097348">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1576734125461" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1576734125461">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1576667097348" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1576667097348">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1576734125461" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1576734125462">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576667097348" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576734125462" />
     <state x="252" y="142" key="SettingsEditor" timestamp="1576657243083">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>

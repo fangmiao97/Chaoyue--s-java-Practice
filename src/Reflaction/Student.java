@@ -1,4 +1,4 @@
-package reflaction;
+package Reflaction;
 
 public class Student {
     private long id;

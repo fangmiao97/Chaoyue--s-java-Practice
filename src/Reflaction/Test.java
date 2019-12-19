@@ -1,4 +1,4 @@
-package reflaction;
+package Reflaction;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 
 public class Test {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException, NoSuchFieldException {
-        Class<?> clz = Class.forName("reflaction.Student");
+        Class<?> clz = Class.forName("Reflaction.Student");
         Method[] methods = clz.getMethods();//父类的方法也在里面
         for (Method m: methods) {
             System.out.println("方法名：" + m.getName());
