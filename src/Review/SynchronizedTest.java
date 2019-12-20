@@ -64,7 +64,8 @@ public class SynchronizedTest {
         System.out.println("------------------静态方法 锁是当前类的class对象------------");
         final SynchronizedTest test = new SynchronizedTest();
         final SynchronizedTest test2 = new SynchronizedTest();
-        //虽然method3和4被不同的对象实例调用，但是因为他两是静态方法，所以其实他们锁住的是当前类的class对象
+        //虽然method3和4被不同的对象实例调用，但是因为他两是静态方法，
+        // 所以其实他们锁住的是当前类的class对象
         //Class对象是JVM生成用来保存对象的类的信息的
         //也就是他两锁的是相同的，所以3和4执行是有序的
 

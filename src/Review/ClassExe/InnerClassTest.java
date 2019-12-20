@@ -12,7 +12,7 @@ class Outer {
     public static class Inter {
         public static int a = 70;
         public static void fun() {
-            System.out.println("static Inter can only get static outer attribute outarr1" + outArr1);
+            System.out.println("static Inter can only get static outer attribute outarr1 " + outArr1);
             System.out.println("inter static function");
         }
     }

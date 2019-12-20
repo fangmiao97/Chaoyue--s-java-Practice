@@ -48,10 +48,10 @@ public class StaticBlockTest {
     public static void main(String[] args) {
 
         //有new的话会执行对象构造方法
-        //Me me = new Me();
-//        System.out.println(me.myAge);
+        Me me = new Me();
+        System.out.println(me.myAge);
 
-        //没有new，只是调用一个今天的变量，就不会执行构造方法
-        System.out.println(Me.parentAge);
+        //没有new，只是调用一个静态的变量，就不会执行构造方法
+        //System.out.println(Me.parentAge);
     }
 }

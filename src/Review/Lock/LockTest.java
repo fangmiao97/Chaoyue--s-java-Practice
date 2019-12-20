@@ -6,28 +6,27 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class LockTest {
 
-    private List<Integer> list = new ArrayList<>();
-    private ReentrantLock lock = new ReentrantLock();
+    private static List<Integer> list = new ArrayList<>();
+    private static ReentrantLock lock = new ReentrantLock();
     public static void main(String[] args) {
-        final LockTest test = new LockTest();
 
         new Thread(){
             @Override
             public void run() {
-                test.insert(Thread.currentThread());
+                insert(Thread.currentThread());
             };
         }.start();
 
         new Thread(){
             @Override
             public void run() {
-                test.insert(Thread.currentThread());
+                insert(Thread.currentThread());
             };
         }.start();
 
     }
 
-    public void insert(Thread thread) {
+    public static void insert(Thread thread) {
         lock.lock();
         try {
             System.out.println(thread.getName() + "获得了锁");

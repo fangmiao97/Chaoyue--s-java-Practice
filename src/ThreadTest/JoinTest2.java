@@ -41,6 +41,7 @@ public class JoinTest2 {
         System.out.println(Thread.currentThread());
         Thread t = new Thread(new RunnableImple());
         new TestThread2(t).start();
+        new TestThread2(t).start();
 
         t.start();
         t.join();

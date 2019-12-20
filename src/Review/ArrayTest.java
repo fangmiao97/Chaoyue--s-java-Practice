@@ -15,5 +15,7 @@ public class ArrayTest {
         list.add(3);
         list.add(4);
         System.out.println(list.toArray()[0]);
+        System.out.println(list.toArray()[1]);
+        System.out.println(list.toArray()[2]);
     }
 }
