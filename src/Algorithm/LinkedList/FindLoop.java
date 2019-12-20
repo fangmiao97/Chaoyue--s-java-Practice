@@ -1,7 +1,5 @@
 package Algorithm.LinkedList;
 
-import DesignPatterns.DecoratorPattern.ListNode;
-
 /**
  * 如果链表存在环，那么如何找出环的入口点？
  * 从链表头与相遇点分别设一个指针，每次各走一步，两个指针必定相遇，且相遇的第一点为环入口点

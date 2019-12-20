@@ -2,34 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList/AddOfLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList/FindLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList/ReverseAdjoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList/RotateLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList/ReverseK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/JoinTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/JoinTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/AndTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/AndTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ArrayTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Outer$Inter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Outer$Inter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceAndClass/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceAndClass/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/LockTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/LockTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/LockTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/LockTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/LockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/Lock/LockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/SynchronizedTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/TryCatchFinallyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/TryCatchFinallyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/AndTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/AndTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/ClassExe/InnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/ClassExe/InnerClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/ClassExe/StaticBlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/ClassExe/StaticBlockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/InterfaceAndClass/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/InterfaceAndClass/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/Lock/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/Lock/LockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/SynchronizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/TryCatchFinallyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/TryCatchFinallyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadTest/JoinTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/JoinTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/LinkedList/AddOfLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList/AddOfLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/LinkedList/FindLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList/FindLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/LinkedList/RemoveDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList/RemoveDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/LinkedList/ReverseAdjoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList/ReverseAdjoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/LinkedList/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/LinkedList/RotateLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList/RotateLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/DecoratorPattern/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/LinkedList/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +73,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -110,7 +91,7 @@
       <recent name="D:\MyProject\javaPractice\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindLoop">
+  <component name="RunManager" selected="Application.ReverseAdjoin">
     <configuration name="AddOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.AddOfLinkedList" />
       <module name="javaPractice" />
@@ -137,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.RotateLinkedList" />
+    <configuration name="ReverseAdjoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.ReverseAdjoin" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
@@ -150,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.ThreadPoolTest" />
+    <configuration name="RotateLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.LinkedList.RotateLinkedList" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadTest.*" />
+          <option name="PATTERN" value="Algorithm.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,19 +158,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadPoolTest" />
       <item itemvalue="Application.ThreadTest" />
       <item itemvalue="Application.AddOfLinkedList" />
       <item itemvalue="Application.RotateLinkedList" />
       <item itemvalue="Application.FindLoop" />
+      <item itemvalue="Application.ReverseAdjoin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseAdjoin" />
         <item itemvalue="Application.FindLoop" />
         <item itemvalue="Application.RotateLinkedList" />
         <item itemvalue="Application.AddOfLinkedList" />
         <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.ThreadPoolTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +250,7 @@
       <workItem from="1576125186221" duration="161000" />
       <workItem from="1576199235754" duration="47665000" />
       <workItem from="1576593024331" duration="19517000" />
-      <workItem from="1576731558496" duration="29632000" />
+      <workItem from="1576731558496" duration="33024000" />
     </task>
     <servers />
   </component>
@@ -290,6 +271,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="468" y="354" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1576857624570">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="468" y="354" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1576857624570" />
     <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1576733193164">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -306,22 +291,22 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1576658133268" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1576850517803">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1576857118644">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1576850517803" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1576850517802">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1576857118644" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1576857118644">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1576850517802" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1576850517802">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1576857118644" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1576857118644">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1576850517802" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1576850517803">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1576857118644" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1576857118644">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576850517803" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576857118644" />
     <state width="1457" height="247" key="GridCell.Tab.1.bottom" timestamp="1576835292744">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -338,10 +323,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state width="1457" height="247" key="GridCell.Tab.1.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576835292743" />
-    <state x="252" y="142" key="SettingsEditor" timestamp="1576851485477">
+    <state x="129" y="146" width="1172" height="714" key="SettingsEditor" timestamp="1576857626228">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="252" y="142" key="SettingsEditor/0.0.1500.1000@0.0.1500.1000" timestamp="1576851485477" />
+    <state x="129" y="146" width="1172" height="714" key="SettingsEditor/0.0.1500.1000@0.0.1500.1000" timestamp="1576857626228" />
     <state x="431" y="106" width="641" height="786" key="find.popup" timestamp="1576735424508">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>

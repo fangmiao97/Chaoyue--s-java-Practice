@@ -1,7 +1,5 @@
 package Algorithm.LinkedList;
 
-import DesignPatterns.DecoratorPattern.ListNode;
-
 /**
  * @Author ：FANG MIAO
  * @Date ：Created on 2019/12/20 22:15
@@ -25,12 +23,29 @@ public class ReverseAdjoin {
         four.next = five;
         five.next = six;
         six.next = seven;
+
+        ListNode cur = null;
+        System.out.println("原链表：");
+        for (cur = one; cur != null; cur = cur.next) {
+            System.out.print(cur.val + " ");
+        }
+
+        ListNode res = reverseAdjoin(one);
+        System.out.println("");
+        System.out.println("结果链表：");
+        for (cur = res; cur != null; cur = cur.next) {
+            System.out.print(cur.val + " ");
+        }
     }
 
     /**
-     * 两两互换
-     * @param head
-     * @return
+     * @Description: ReverseAdjoin
+     * @Param:  [head]
+     * @Return: Algorithm.LinkedList.ListNode
+     * @Author: FANG MIAO
+     * @Date: 2019/12/20
+     * @Time Complexity: O(N)
+     * @Space ComplexityL O(1)
      */
     public static ListNode reverseAdjoin(ListNode head) {
         ListNode dummy = new ListNode(0);
@@ -43,6 +58,17 @@ public class ReverseAdjoin {
         //交换对的下一对第一个
         ListNode next = null;
 
-        while (cur != null && cur.next != null)
+        while (cur != null && cur.next != null) {//如果是奇数个节点
+            // 最后一个单独出来就不会交换，因为cur.next == null
+            next = cur.next.next;
+            pre.next = cur.next;
+            cur.next.next = cur;
+            cur.next = next;
+
+            pre = cur;
+            cur = next;
+        }
+
+        return dummy.next;
     }
 }

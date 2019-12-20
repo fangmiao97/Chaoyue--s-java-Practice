@@ -1,7 +1,5 @@
 package Algorithm.LinkedList;
 
-import DesignPatterns.DecoratorPattern.ListNode;
-
 /**
  * 题目描述：给定单链表1→2→3→4→5→6→7，k=3，
  * 那么旋转后的单链表变为5→6→7→1→2→3→4

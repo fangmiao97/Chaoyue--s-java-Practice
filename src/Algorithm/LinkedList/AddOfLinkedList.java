@@ -1,7 +1,5 @@
 package Algorithm.LinkedList;
 
-import DesignPatterns.DecoratorPattern.ListNode;
-
 /**
  * 计算链表相加值
  * 给定两个单链表，链表的每个结点代表一位数，计算两个数的和。

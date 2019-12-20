@@ -1,7 +1,5 @@
 package Algorithm.LinkedList;
 
-import DesignPatterns.DecoratorPattern.ListNode;
-
 import java.util.HashSet;
 
 /**
