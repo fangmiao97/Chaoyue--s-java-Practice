@@ -49,8 +49,9 @@ public class ListNode {
      */
     public static void showLinkedList(ListNode head) {
         for (ListNode cur = head; cur != null; cur = cur.next) {
-            System.out.println(cur.val + " ");
+            System.out.print(cur.val + " ");
         }
+        System.out.println("");
     }
 }
 
