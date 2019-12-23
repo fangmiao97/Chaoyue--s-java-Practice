@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/Hash/FindPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/MementoPattern/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/MementoPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/MementoPattern/GameInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/MementoPattern/Memento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +90,33 @@
       <recent name="D:\MyProject\javaPractice\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindPairs">
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.MementoPattern.Client" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.MementoPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Prototype.DeepClone.Client" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.Prototype.DeepClone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.Hash.FindPairs" />
       <module name="javaPractice" />
@@ -114,19 +143,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PopSerial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.StackAndQueue.PopSerial" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithm.StackAndQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QueueBy2Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.StackAndQueue.QueueBy2Stacks" />
       <module name="javaPractice" />
@@ -140,33 +156,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.StackAndQueue.SortStack" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algorithm.StackAndQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.SortStack" />
-      <item itemvalue="Application.PopSerial" />
       <item itemvalue="Application.QueueBy2Stacks" />
       <item itemvalue="Application.LRU" />
       <item itemvalue="Application.FindPairs" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.FindPairs" />
         <item itemvalue="Application.LRU" />
         <item itemvalue="Application.QueueBy2Stacks" />
-        <item itemvalue="Application.PopSerial" />
-        <item itemvalue="Application.SortStack" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +249,7 @@
       <workItem from="1576125186221" duration="161000" />
       <workItem from="1576199235754" duration="47665000" />
       <workItem from="1576593024331" duration="19517000" />
-      <workItem from="1576731558496" duration="62906000" />
+      <workItem from="1576731558496" duration="66473000" />
     </task>
     <servers />
   </component>
@@ -271,10 +274,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="468" y="354" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1576912730571" />
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1577012592124">
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1577073703690">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1577012592124" />
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1577073703690" />
     <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575696850580">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -291,22 +294,22 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1576658133268" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1577015978066">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1577073866149">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577015978066" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1577015978066">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577073866149" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1577073866149">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577015978066" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1577015978065">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577073866149" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1577073866148">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577015978065" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1577015978066">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577073866148" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1577073866149">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577015978066" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577073866149" />
     <state width="1457" height="247" key="GridCell.Tab.1.bottom" timestamp="1576835292744">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
