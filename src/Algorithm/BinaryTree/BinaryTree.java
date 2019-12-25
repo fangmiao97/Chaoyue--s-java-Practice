@@ -122,6 +122,21 @@ public class BinaryTree {
 //        }
 //    }
     
+    /**
+     * @Description: 返回一个二叉树
+     * @Param:  []
+     * @Return: Algorithm.BinaryTree.BTNode
+     * @Author: FANG MIAO
+     * @Date: 2019/12/23 18:26
+     * @Time Complexity: O()
+     * @Space ComplexityL O()
+     */
+    public static BTNode getDefaultTree() {
+        int arr[] = {1, 2, -3, 4, 5, -6, 7, 8, 9,-10};
+        BTNode root = arrayToTree(arr, 0, arr.length - 1);
+        return root;
+    }
+    
     public static void main(String[] args) {
         int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         System.out.println("原数组：");

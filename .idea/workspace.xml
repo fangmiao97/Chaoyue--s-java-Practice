@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/LayerPrint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/MaxSumSubTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/SameTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/LoginBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/LoginEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/LoginEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/LoginValidatorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/LoginValidatorB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,22 +81,25 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="ThreadTest" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Algorithm" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="DesignPatterns.FactoryPattern" />
       <recent name="DesignPatterns.SimpleFactroyPattern" />
       <recent name="network" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="Algorithm" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyProject\javaPractice\libs" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DesignPatterns.ObserverPattern" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
+  <component name="RunManager" selected="Application.LoginValidatorA">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.BinaryTree" />
       <module name="javaPractice" />
@@ -101,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.MementoPattern.Client" />
+    <configuration name="LayerPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.LayerPrint" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.MementoPattern.*" />
+          <option name="PATTERN" value="Algorithm.BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Prototype.DeepClone.Client" />
+    <configuration name="LoginValidatorA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.ObserverPattern.LoginValidatorA" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Prototype.DeepClone.*" />
+          <option name="PATTERN" value="DesignPatterns.ObserverPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.Hash.FindPairs" />
+    <configuration name="LoginValidatorB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.ObserverPattern.LoginValidatorB" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.Hash.*" />
+          <option name="PATTERN" value="DesignPatterns.ObserverPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.StackAndQueue.LRU" />
+    <configuration name="MaxSumSubTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.MaxSumSubTree" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.StackAndQueue.*" />
+          <option name="PATTERN" value="Algorithm.BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LRU" />
-      <item itemvalue="Application.FindPairs" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.BinaryTree" />
+      <item itemvalue="Application.LayerPrint" />
+      <item itemvalue="Application.MaxSumSubTree" />
+      <item itemvalue="Application.LoginValidatorB" />
+      <item itemvalue="Application.LoginValidatorA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoginValidatorA" />
+        <item itemvalue="Application.LoginValidatorB" />
+        <item itemvalue="Application.MaxSumSubTree" />
+        <item itemvalue="Application.LayerPrint" />
         <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.FindPairs" />
-        <item itemvalue="Application.LRU" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +258,7 @@
       <workItem from="1576125186221" duration="161000" />
       <workItem from="1576199235754" duration="47665000" />
       <workItem from="1576593024331" duration="19517000" />
-      <workItem from="1576731558496" duration="71344000" />
+      <workItem from="1576731558496" duration="79735000" />
     </task>
     <servers />
   </component>
@@ -291,22 +303,22 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1576658133268" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1577089394722">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1577188850249">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577089394722" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1577089394722">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577188850249" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1577188850248">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577089394722" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1577089394721">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577188850248" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1577188850246">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577089394721" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1577089394722">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577188850246" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1577188850249">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577089394722" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577188850249" />
     <state width="1457" height="247" key="GridCell.Tab.1.bottom" timestamp="1576835292744">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -347,10 +359,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="409" y="232" key="run.anything.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1575953208552" />
-    <state x="433" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1577080552026">
+    <state x="434" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1577097370327">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="433" y="236" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1577080552026" />
+    <state x="434" y="237" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1577097370327" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaPractice$MutilClientDemo.ic" NAME="MutilClientDemo Coverage Results" MODIFIED="1565445636687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
