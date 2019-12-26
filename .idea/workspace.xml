@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTreeToDLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/IsPostOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/AirPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Fighter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Helicopter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/PlaneSimulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/DNSCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/FindMaxSumRoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/FindParentNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/FindSumRoad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/SameTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/SameTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm/BinaryTree/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/SameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/LayerPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/LayerPrint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/BinaryTree/LayerPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/LayerPrint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +97,7 @@
       <recent name="DesignPatterns.ObserverPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.DNSCache">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.BinaryTree" />
       <module name="javaPractice" />
@@ -113,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeToDLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.BinaryTreeToDLinkedList" />
+    <configuration name="DNSCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.DNSCache" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
@@ -126,21 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.StrategyPattern.Client" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DesignPatterns.StrategyPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsPostOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.IsPostOrder" />
+    <configuration name="FindMaxSumRoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.FindMaxSumRoad" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +137,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.SameTree" />
+    <configuration name="FindSumRoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.FindSumRoad" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LayerPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.LayerPrint" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
@@ -166,19 +164,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SameTree" />
-      <item itemvalue="Application.BinaryTreeToDLinkedList" />
+      <item itemvalue="Application.LayerPrint" />
+      <item itemvalue="Application.FindSumRoad" />
       <item itemvalue="Application.BinaryTree" />
-      <item itemvalue="Application.IsPostOrder" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.FindMaxSumRoad" />
+      <item itemvalue="Application.DNSCache" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.IsPostOrder" />
-        <item itemvalue="Application.BinaryTreeToDLinkedList" />
+        <item itemvalue="Application.DNSCache" />
+        <item itemvalue="Application.FindMaxSumRoad" />
+        <item itemvalue="Application.LayerPrint" />
         <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.SameTree" />
+        <item itemvalue="Application.FindSumRoad" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +256,7 @@
       <workItem from="1576125186221" duration="161000" />
       <workItem from="1576199235754" duration="47665000" />
       <workItem from="1576593024331" duration="19517000" />
-      <workItem from="1576731558496" duration="89946000" />
+      <workItem from="1576731558496" duration="101892000" />
     </task>
     <servers />
   </component>
@@ -283,10 +281,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="468" y="354" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1577081400493" />
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1577337925031">
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1577351622258">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1577337925031" />
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1577351622258" />
     <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575696850580">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -303,38 +301,38 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1576658133268" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1577338421756">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1577351891231">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577338421756" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1577338421756">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577351891231" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1577351891231">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577338421756" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1577338421754">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577351891231" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1577351891231">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577338421754" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1577338421756">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577351891231" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1577351891231">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577338421756" />
-    <state width="1457" height="247" key="GridCell.Tab.1.bottom" timestamp="1576835292744">
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577351891231" />
+    <state width="1457" height="246" key="GridCell.Tab.1.bottom" timestamp="1577345866508">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.1.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1576835292744" />
-    <state width="1457" height="247" key="GridCell.Tab.1.center" timestamp="1576835292743">
+    <state width="1457" height="246" key="GridCell.Tab.1.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577345866508" />
+    <state width="1457" height="246" key="GridCell.Tab.1.center" timestamp="1577345866505">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.1.center/0.0.1500.1000@0.0.1500.1000" timestamp="1576835292743" />
-    <state width="1457" height="247" key="GridCell.Tab.1.left" timestamp="1576835292743">
+    <state width="1457" height="246" key="GridCell.Tab.1.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577345866505" />
+    <state width="1457" height="246" key="GridCell.Tab.1.left" timestamp="1577345866504">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.1.left/0.0.1500.1000@0.0.1500.1000" timestamp="1576835292743" />
-    <state width="1457" height="247" key="GridCell.Tab.1.right" timestamp="1576835292743">
+    <state width="1457" height="246" key="GridCell.Tab.1.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577345866504" />
+    <state width="1457" height="246" key="GridCell.Tab.1.right" timestamp="1577345866507">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.1.right/0.0.1500.1000@0.0.1500.1000" timestamp="1576835292743" />
+    <state width="1457" height="246" key="GridCell.Tab.1.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577345866507" />
     <state x="129" y="146" width="1172" height="714" key="SettingsEditor" timestamp="1577081402488">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -343,10 +341,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="522" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1576930368032" />
-    <state x="431" y="106" width="641" height="786" key="find.popup" timestamp="1576923942037">
+    <state x="431" y="106" width="641" height="786" key="find.popup" timestamp="1577351108964">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="431" y="106" width="641" height="786" key="find.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1576923942037" />
+    <state x="431" y="106" width="641" height="786" key="find.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1577351108964" />
     <state x="125" y="109" key="new project wizard" timestamp="1575732769720">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -363,6 +361,17 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="435" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1577338379285" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTree.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaPractice$MutilClientDemo.ic" NAME="MutilClientDemo Coverage Results" MODIFIED="1565445636687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

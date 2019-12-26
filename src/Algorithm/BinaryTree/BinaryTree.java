@@ -154,6 +154,8 @@ public class BinaryTree {
         printTreeMidOrderNonRecur(btroot);
         System.out.println();
 
+        printTreeMidOrder(getDefaultTree());
+
     }
 
 

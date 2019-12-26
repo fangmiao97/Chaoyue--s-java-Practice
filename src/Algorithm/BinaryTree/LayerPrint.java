@@ -27,14 +27,13 @@ public class LayerPrint {
         queue.offer(root);
         while (!queue.isEmpty()) {
             p = queue.poll();
-            System.out.println(p.data + " ");
+            System.out.print(p.data + " ");
             if (p.left != null) {
                 queue.add(p.left);
             }
             if (p.right != null) {
                 queue.add(p.right);
             }
-
         }
     }
 
@@ -51,7 +50,7 @@ public class LayerPrint {
         if (root == null || level < 0) {
             return 0;
         } else if (level == 0) {
-            System.out.println(root.data + " ");
+            System.out.print(root.data + " ");
             return 1;
         }
         else//转化成打印子树的level-1层
@@ -62,7 +61,9 @@ public class LayerPrint {
         BTNode defaultTree = BinaryTree.getDefaultTree();
         printTreeLayer(defaultTree);
 
+        System.out.println();
         printAtLevel(defaultTree, 0);
+        System.out.println();
         printAtLevel(defaultTree, 3);
     }
 }
