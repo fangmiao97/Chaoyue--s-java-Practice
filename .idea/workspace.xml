@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/LayerPrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/MaxSumSubTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/SameTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/LoginBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/LoginEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/LoginEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/LoginValidatorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/ObserverPattern/LoginValidatorB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTreeToDLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/IsPostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/AirPlane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Helicopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/StrategyPattern/PlaneSimulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/SameTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/SameTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/BinaryTree/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/SameTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <recent name="DesignPatterns.ObserverPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LoginValidatorA">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.BinaryTree" />
       <module name="javaPractice" />
@@ -113,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LayerPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.LayerPrint" />
+    <configuration name="BinaryTreeToDLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.BinaryTreeToDLinkedList" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
@@ -126,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginValidatorA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.ObserverPattern.LoginValidatorA" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.StrategyPattern.Client" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.ObserverPattern.*" />
+          <option name="PATTERN" value="DesignPatterns.StrategyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginValidatorB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.ObserverPattern.LoginValidatorB" />
+    <configuration name="IsPostOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.IsPostOrder" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.ObserverPattern.*" />
+          <option name="PATTERN" value="Algorithm.BinaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,8 +152,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSumSubTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.MaxSumSubTree" />
+    <configuration name="SameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.SameTree" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
@@ -166,19 +166,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.SameTree" />
+      <item itemvalue="Application.BinaryTreeToDLinkedList" />
       <item itemvalue="Application.BinaryTree" />
-      <item itemvalue="Application.LayerPrint" />
-      <item itemvalue="Application.MaxSumSubTree" />
-      <item itemvalue="Application.LoginValidatorB" />
-      <item itemvalue="Application.LoginValidatorA" />
+      <item itemvalue="Application.IsPostOrder" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LoginValidatorA" />
-        <item itemvalue="Application.LoginValidatorB" />
-        <item itemvalue="Application.MaxSumSubTree" />
-        <item itemvalue="Application.LayerPrint" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.IsPostOrder" />
+        <item itemvalue="Application.BinaryTreeToDLinkedList" />
         <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application.SameTree" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +258,7 @@
       <workItem from="1576125186221" duration="161000" />
       <workItem from="1576199235754" duration="47665000" />
       <workItem from="1576593024331" duration="19517000" />
-      <workItem from="1576731558496" duration="79735000" />
+      <workItem from="1576731558496" duration="89946000" />
     </task>
     <servers />
   </component>
@@ -283,10 +283,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="468" y="354" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1577081400493" />
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1577073703690">
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1577337925031">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1577073703690" />
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1577337925031" />
     <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575696850580">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -303,22 +303,22 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1576658133268" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1577188850249">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1577338421756">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577188850249" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1577188850248">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577338421756" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1577338421756">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577188850248" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1577188850246">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577338421756" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1577338421754">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577188850246" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1577188850249">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577338421754" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1577338421756">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577188850249" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577338421756" />
     <state width="1457" height="247" key="GridCell.Tab.1.bottom" timestamp="1576835292744">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -359,10 +359,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="409" y="232" key="run.anything.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1575953208552" />
-    <state x="434" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1577097370327">
+    <state x="435" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1577338379285">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="434" y="237" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1577097370327" />
+    <state x="435" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1577338379285" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaPractice$MutilClientDemo.ic" NAME="MutilClientDemo Coverage Results" MODIFIED="1565445636687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
