@@ -5,6 +5,14 @@ public class Student {
     private String name;
     public int classNum;
 
+    static {
+        System.out.println("student static block code");
+    }
+
+    public Student() {
+        System.out.println("construct method");
+    }
+
     public long getId() {
         return id;
     }

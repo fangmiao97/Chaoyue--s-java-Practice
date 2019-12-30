@@ -33,6 +33,8 @@ class Parent extends GrandParent {
 
 class Me extends Parent {
 
+    static final int staticFinal = 23;
+
     static int myAge = 22;
 
     public Me() {
@@ -42,14 +44,30 @@ class Me extends Parent {
     static {
         System.out.println("Me static code");
     }
+
+    public static void staticMethod(){
+        System.out.println("Me static method");
+    }
 }
 
 public class StaticBlockTest {
+
+    static {
+        System.out.println("包含main方法的主类会最先初始化");
+    }
+
     public static void main(String[] args) {
 
+        //static final修饰的类变量（编译期静态变量）不会引发初始化
+        System.out.println("static final修饰的类变量"+Me.staticFinal);
+
+        //调用静态方法，读取静态字段（只有static修饰的类变量）都会初始化
+         System.out.println(Me.myAge);
+//        Me.staticMethod();
+
         //有new的话会执行对象构造方法
-        Me me = new Me();
-        System.out.println(me.myAge);
+//        Me me = new Me();
+//        System.out.println(me.myAge);
 
         //没有new，只是调用一个静态的变量，就不会执行构造方法
         //System.out.println(Me.parentAge);

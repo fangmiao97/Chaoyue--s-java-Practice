@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/DNSCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/FindMaxSumRoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/FindParentNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/FindSumRoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/FindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/FindMinInRotationArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/GetMaxAndMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Review/ClassExe/ForNameMethed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/LayerPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/LayerPrint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm/BinaryTree/LayerPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/LayerPrint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/reflaction/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/reflaction/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/reflaction/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/reflaction/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Me.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Me.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reflaction/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflaction/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reflaction/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflaction/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Review/ClassExe/StaticBlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/ClassExe/StaticBlockTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fangmiao97.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -97,13 +100,13 @@
       <recent name="DesignPatterns.ObserverPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DNSCache">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.BinaryTree" />
+  <component name="RunManager" selected="Application.FindMinInRotationArray">
+    <configuration name="AtomicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Review.AtomicTest" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.BinaryTree.*" />
+          <option name="PATTERN" value="Review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DNSCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.DNSCache" />
+    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Array.FindDuplicate" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.BinaryTree.*" />
+          <option name="PATTERN" value="Algorithm.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMaxSumRoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.FindMaxSumRoad" />
+    <configuration name="FindMinInRotationArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Array.FindMinInRotationArray" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.BinaryTree.*" />
+          <option name="PATTERN" value="Algorithm.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindSumRoad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.FindSumRoad" />
+    <configuration name="GetMaxAndMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Array.GetMaxAndMin" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.BinaryTree.*" />
+          <option name="PATTERN" value="Algorithm.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LayerPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.LayerPrint" />
+    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Review.Lock.LockTest" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.BinaryTree.*" />
+          <option name="PATTERN" value="Review.Lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +167,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LayerPrint" />
-      <item itemvalue="Application.FindSumRoad" />
-      <item itemvalue="Application.BinaryTree" />
-      <item itemvalue="Application.FindMaxSumRoad" />
-      <item itemvalue="Application.DNSCache" />
+      <item itemvalue="Application.AtomicTest" />
+      <item itemvalue="Application.LockTest" />
+      <item itemvalue="Application.FindDuplicate" />
+      <item itemvalue="Application.GetMaxAndMin" />
+      <item itemvalue="Application.FindMinInRotationArray" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DNSCache" />
-        <item itemvalue="Application.FindMaxSumRoad" />
-        <item itemvalue="Application.LayerPrint" />
-        <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.FindSumRoad" />
+        <item itemvalue="Application.FindMinInRotationArray" />
+        <item itemvalue="Application.GetMaxAndMin" />
+        <item itemvalue="Application.FindDuplicate" />
+        <item itemvalue="Application.LockTest" />
+        <item itemvalue="Application.AtomicTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +259,9 @@
       <workItem from="1576125186221" duration="161000" />
       <workItem from="1576199235754" duration="47665000" />
       <workItem from="1576593024331" duration="19517000" />
-      <workItem from="1576731558496" duration="101892000" />
+      <workItem from="1576731558496" duration="103767000" />
+      <workItem from="1577498918942" duration="4981000" />
+      <workItem from="1577616745195" duration="16020000" />
     </task>
     <servers />
   </component>
@@ -281,10 +286,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="468" y="354" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1577081400493" />
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1577351622258">
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1577674396020">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1577351622258" />
+    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1577674396020" />
     <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575696850580">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -297,42 +302,42 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="534" y="406" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1500.1000@0.0.1500.1000" timestamp="1576925195518" />
-    <state x="531" y="255" key="FileChooserDialogImpl" timestamp="1576658133268">
+    <state x="531" y="255" key="FileChooserDialogImpl" timestamp="1577691849658">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1576658133268" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1577351891231">
+    <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1577691849658" />
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1577689073564">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577351891231" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1577351891231">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577689073564" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1577689073564">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577351891231" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1577351891231">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577689073564" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1577689073564">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577351891231" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1577351891231">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577689073564" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1577689073564">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577351891231" />
-    <state width="1457" height="246" key="GridCell.Tab.1.bottom" timestamp="1577345866508">
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577689073564" />
+    <state width="1457" height="246" key="GridCell.Tab.1.bottom" timestamp="1577683207923">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.1.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577345866508" />
-    <state width="1457" height="246" key="GridCell.Tab.1.center" timestamp="1577345866505">
+    <state width="1457" height="246" key="GridCell.Tab.1.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577683207923" />
+    <state width="1457" height="246" key="GridCell.Tab.1.center" timestamp="1577683207922">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.1.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577345866505" />
-    <state width="1457" height="246" key="GridCell.Tab.1.left" timestamp="1577345866504">
+    <state width="1457" height="246" key="GridCell.Tab.1.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577683207922" />
+    <state width="1457" height="246" key="GridCell.Tab.1.left" timestamp="1577683207922">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.1.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577345866504" />
-    <state width="1457" height="246" key="GridCell.Tab.1.right" timestamp="1577345866507">
+    <state width="1457" height="246" key="GridCell.Tab.1.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577683207922" />
+    <state width="1457" height="246" key="GridCell.Tab.1.right" timestamp="1577683207922">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.1.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577345866507" />
+    <state width="1457" height="246" key="GridCell.Tab.1.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577683207922" />
     <state x="129" y="146" width="1172" height="714" key="SettingsEditor" timestamp="1577081402488">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -349,18 +354,18 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="125" y="109" key="new project wizard/0.0.1500.1000@0.0.1500.1000" timestamp="1575732769720" />
-    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1576772452989">
+    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1577691859008">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1576772452989" />
+    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1577691859008" />
     <state x="409" y="232" key="run.anything.popup" timestamp="1575953208552">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="409" y="232" key="run.anything.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1575953208552" />
-    <state x="435" y="238" width="672" height="678" key="search.everywhere.popup" timestamp="1577338379285">
+    <state x="439" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1577691845371">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="435" y="238" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1577338379285" />
+    <state x="439" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1577691845371" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

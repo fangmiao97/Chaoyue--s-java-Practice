@@ -6,6 +6,7 @@ import java.lang.reflect.Method;
 
 public class Test {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException, NoSuchFieldException {
+
         Class<?> clz = Class.forName("Reflaction.Student");
         Method[] methods = clz.getMethods();//父类的方法也在里面
         for (Method m: methods) {
@@ -18,7 +19,7 @@ public class Test {
         }
 
         //调用类的方法
-        Student stu = (Student) clz.newInstance();
+        Student stu = (Student) clz.newInstance();//创建此 Class 对象所表示的类的一个新实例。默认无参构造方法
         System.out.println(stu.getName());//null
         //获取方法
         Method setName = clz.getMethod("setName", String.class);
