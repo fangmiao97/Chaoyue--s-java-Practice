@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/FindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/FindMinInRotationArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/GetMaxAndMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Review/ClassExe/ForNameMethed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/FindLost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/KMinHeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/reflaction/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/reflaction/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/reflaction/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/reflaction/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Me.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Me.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflaction/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflaction/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflaction/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflaction/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/ClassExe/StaticBlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/ClassExe/StaticBlockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/FindMinInRotationArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/FindMinInRotationArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Review/sorting/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/HeapSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,22 +93,9 @@
       <recent name="DesignPatterns.ObserverPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindMinInRotationArray">
-    <configuration name="AtomicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review.AtomicTest" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Review.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.Array.FindDuplicate" />
+  <component name="RunManager" selected="Application.KMinHeap">
+    <configuration name="FindLost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Array.FindLost" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
@@ -153,12 +133,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review.Lock.LockTest" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Review.sorting.HeapSort" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Review.Lock.*" />
+          <option name="PATTERN" value="Review.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KMinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Array.KMinHeap" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AtomicTest" />
-      <item itemvalue="Application.LockTest" />
-      <item itemvalue="Application.FindDuplicate" />
       <item itemvalue="Application.GetMaxAndMin" />
       <item itemvalue="Application.FindMinInRotationArray" />
+      <item itemvalue="Application.FindLost" />
+      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.KMinHeap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KMinHeap" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.FindLost" />
         <item itemvalue="Application.FindMinInRotationArray" />
         <item itemvalue="Application.GetMaxAndMin" />
-        <item itemvalue="Application.FindDuplicate" />
-        <item itemvalue="Application.LockTest" />
-        <item itemvalue="Application.AtomicTest" />
       </list>
     </recent_temporary>
   </component>
@@ -262,6 +255,7 @@
       <workItem from="1576731558496" duration="103767000" />
       <workItem from="1577498918942" duration="4981000" />
       <workItem from="1577616745195" duration="16020000" />
+      <workItem from="1577691763341" duration="4634000" />
     </task>
     <servers />
   </component>
@@ -302,26 +296,26 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="534" y="406" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1500.1000@0.0.1500.1000" timestamp="1576925195518" />
-    <state x="531" y="255" key="FileChooserDialogImpl" timestamp="1577691849658">
+    <state x="531" y="255" key="FileChooserDialogImpl" timestamp="1577691896913">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1577691849658" />
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1577689073564">
+    <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1577691896913" />
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom" timestamp="1577697677059">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577689073564" />
-    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1577689073564">
+    <state width="1457" height="247" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577697677059" />
+    <state width="1457" height="247" key="GridCell.Tab.0.center" timestamp="1577697677059">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577689073564" />
-    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1577689073564">
+    <state width="1457" height="247" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577697677059" />
+    <state width="1457" height="247" key="GridCell.Tab.0.left" timestamp="1577697677059">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577689073564" />
-    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1577689073564">
+    <state width="1457" height="247" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577697677059" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right" timestamp="1577697677059">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577689073564" />
+    <state width="1457" height="247" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577697677059" />
     <state width="1457" height="246" key="GridCell.Tab.1.bottom" timestamp="1577683207923">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -354,18 +348,18 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="125" y="109" key="new project wizard/0.0.1500.1000@0.0.1500.1000" timestamp="1575732769720" />
-    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1577691859008">
+    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1577691957717">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1577691859008" />
+    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1577691957717" />
     <state x="409" y="232" key="run.anything.popup" timestamp="1575953208552">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="409" y="232" key="run.anything.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1575953208552" />
-    <state x="439" y="242" width="672" height="678" key="search.everywhere.popup" timestamp="1577691845371">
+    <state x="440" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1577691880278">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="439" y="242" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1577691845371" />
+    <state x="440" y="243" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1577691880278" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
