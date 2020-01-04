@@ -10,6 +10,11 @@ class Outer {
     int outArr2 = 2019;
 
     public static class Inter {
+
+        static {//只有使用到inner类才会初始化
+            System.out.println("inner static class static block code");
+        }
+
         public static int a = 70;
         public static void fun() {
             System.out.println("static Inter can only get static outer attribute outarr1 " + outArr1);
@@ -26,14 +31,15 @@ class Outer {
 }
 
 public class InnerClassTest {
-    Outer.Inter in = new Outer.Inter();
+    //Outer.Inter in = new Outer.Inter();
 
     public static void main(String[] args) {//main就是一个典型的static方法
         Outer outer = new Outer();
+        Outer.Inter inter = new Outer.Inter();//注意和非static内部类new方法的不同
         Outer.Inter.fun();//调用静态内部类中静态方法
         System.out.println(Outer.Inter.a);
 
-        //创建普通内部类方法
+        //创建普通内部类方法，需要有outer才能new内部的--》outer.new ***
         Outer.noStaticInter noStaticInter = outer.new noStaticInter();
         noStaticInter.fun2();
     }

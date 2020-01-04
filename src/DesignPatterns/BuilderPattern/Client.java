@@ -17,7 +17,7 @@ public class Client {
 
     public static void main(String[] args) {
 
-        InterfaceBuilder interfaceBuilder = new SimplyModeBuilder();
+        InterfaceBuilder interfaceBuilder = new MemoryModeBuilder();
         DisplyDirector displyDirector = new DisplyDirector();
         displyDirector.setInterfaceBuilder(interfaceBuilder);
 
