@@ -25,7 +25,6 @@ public class Client {
         midPanel.add(button1);
         midPanel.add(textbox);
 
-
         window.print();
     }
 }

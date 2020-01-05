@@ -5,7 +5,7 @@ package DesignPatterns.BridgePattern;
  * 数据库数据
  */
 public abstract class DatabaseData {
-    //关联关系-桥
+    //关联关系-桥，protected子类可以用
     protected FormatImp formatImp;
 
     public void setFormatImp(FormatImp formatImp) {

@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/FindMid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/MaxCover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/MaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/MinDistanceOfTriple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Algorithm/Array/Subset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/KMinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/KMinHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/sorting/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/AndroidFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/AndroidFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstrctFactory/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/ClassExe/InnerClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/ClassExe/InnerClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/Subset.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/Subset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/Array/Subset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/Array/Subset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/CipherAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/CipherAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/BridgePattern/DatabaseData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/BridgePattern/DatabaseData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/CompositePattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/CompositePattern/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,13 +94,13 @@
       <recent name="DesignPatterns.ObserverPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.Subset">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.AbstrctFactory.Client" />
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.StrategyPattern.Client" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.AbstrctFactory.*" />
+          <option name="PATTERN" value="DesignPatterns.StrategyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.BuilderPattern.Client" />
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.SimpleFactroyPattern.Client" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.BuilderPattern.*" />
+          <option name="PATTERN" value="DesignPatterns.SimpleFactroyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +122,11 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.FactoryPattern.Client" />
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.ProxyPattern.Client" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.FactoryPattern.*" />
+          <option name="PATTERN" value="DesignPatterns.ProxyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review.ClassExe.InnerClassTest" />
+    <configuration name="LoginValidatorA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.ObserverPattern.LoginValidatorA" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Review.ClassExe.*" />
+          <option name="PATTERN" value="DesignPatterns.ObserverPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IoDHSingletonLoadBalancer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.IoDHSingletonLoadBalancer" />
+    <configuration name="Subset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Array.Subset" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.*" />
+          <option name="PATTERN" value="Algorithm.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,19 +161,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LoginValidatorA" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Client (3)" />
       <item itemvalue="Application.Client (1)" />
-      <item itemvalue="Application.InnerClassTest" />
-      <item itemvalue="Application.IoDHSingletonLoadBalancer" />
-      <item itemvalue="Application.Client (2)" />
+      <item itemvalue="Application.Subset" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.IoDHSingletonLoadBalancer" />
-        <item itemvalue="Application.InnerClassTest" />
+        <item itemvalue="Application.Subset" />
         <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.LoginValidatorA" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +259,7 @@
       <workItem from="1577691763341" duration="5666000" />
       <workItem from="1577704651096" duration="79000" />
       <workItem from="1577704818529" duration="17505000" />
-      <workItem from="1578012554049" duration="5151000" />
+      <workItem from="1578012554049" duration="18752000" />
     </task>
     <servers />
   </component>
@@ -310,38 +304,38 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="531" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1578015660729" />
-    <state width="1457" height="246" key="GridCell.Tab.0.bottom" timestamp="1578125533980">
+    <state width="1457" height="246" key="GridCell.Tab.0.bottom" timestamp="1578188998513">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1578125533980" />
-    <state width="1457" height="246" key="GridCell.Tab.0.center" timestamp="1578125533980">
+    <state width="1457" height="246" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1578188998513" />
+    <state width="1457" height="246" key="GridCell.Tab.0.center" timestamp="1578188998513">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1578125533980" />
-    <state width="1457" height="246" key="GridCell.Tab.0.left" timestamp="1578125533980">
+    <state width="1457" height="246" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1578188998513" />
+    <state width="1457" height="246" key="GridCell.Tab.0.left" timestamp="1578188998512">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1578125533980" />
-    <state width="1457" height="246" key="GridCell.Tab.0.right" timestamp="1578125533980">
+    <state width="1457" height="246" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1578188998512" />
+    <state width="1457" height="246" key="GridCell.Tab.0.right" timestamp="1578188998513">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1578125533980" />
-    <state width="1457" height="246" key="GridCell.Tab.1.bottom" timestamp="1577683207923">
+    <state width="1457" height="246" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1578188998513" />
+    <state width="1457" height="245" key="GridCell.Tab.1.bottom" timestamp="1578150794140">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.1.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1577683207923" />
-    <state width="1457" height="246" key="GridCell.Tab.1.center" timestamp="1577683207922">
+    <state width="1457" height="245" key="GridCell.Tab.1.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1578150794140" />
+    <state width="1457" height="245" key="GridCell.Tab.1.center" timestamp="1578150794140">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.1.center/0.0.1500.1000@0.0.1500.1000" timestamp="1577683207922" />
-    <state width="1457" height="246" key="GridCell.Tab.1.left" timestamp="1577683207922">
+    <state width="1457" height="245" key="GridCell.Tab.1.center/0.0.1500.1000@0.0.1500.1000" timestamp="1578150794140" />
+    <state width="1457" height="245" key="GridCell.Tab.1.left" timestamp="1578150794140">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.1.left/0.0.1500.1000@0.0.1500.1000" timestamp="1577683207922" />
-    <state width="1457" height="246" key="GridCell.Tab.1.right" timestamp="1577683207922">
+    <state width="1457" height="245" key="GridCell.Tab.1.left/0.0.1500.1000@0.0.1500.1000" timestamp="1578150794140" />
+    <state width="1457" height="245" key="GridCell.Tab.1.right" timestamp="1578150794140">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.1.right/0.0.1500.1000@0.0.1500.1000" timestamp="1577683207922" />
+    <state width="1457" height="245" key="GridCell.Tab.1.right/0.0.1500.1000@0.0.1500.1000" timestamp="1578150794140" />
     <state x="129" y="146" width="1172" height="714" key="SettingsEditor" timestamp="1577081402488">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -378,6 +372,11 @@
           <url>file://$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTree.java</url>
           <line>140</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Algorithm/Array/Subset.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

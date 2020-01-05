@@ -1,7 +1,7 @@
 package DesignPatterns.AdapterPattern;
 
 /**
- * 适配器类
+ * 适配器类，继承了target
  */
 public class CipherAdapter extends DataOperation{
 
