@@ -20,7 +20,7 @@ public class FutureTaskTEst {
 
         //方式二
         FutureTask<Integer> submitTask = new FutureTask<>(callableTask);
-        Thread thread = new Thread(submitTask, "future task");//注意这一句
+        Thread thread = new Thread(submitTask, "submitTask(FutureTask)");//注意这一句
         thread.start();
 
         System.out.println(Thread.currentThread().getName());

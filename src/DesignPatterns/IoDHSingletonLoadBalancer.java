@@ -8,8 +8,9 @@ import java.util.Random;
  * initialization-on demand Holder
  * 实现一个负载均衡器Load Balancer
  * 当一个类被jvm加载的时候，会经历初始化的过程。
- *
- *
+ * 在多线程环境下，jvm对一个类的初始化会做限制，
+ * 同一时间只会允许一个线程去初始化一个类，
+ * 这样就从虚拟机层面避免了大部分单例实现的问题
  */
 public class IoDHSingletonLoadBalancer {
     //可用服务器集合

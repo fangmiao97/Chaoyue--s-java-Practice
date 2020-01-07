@@ -2,6 +2,10 @@ package ThreadTest.RejectExecutionPolicy;
 
 import java.util.concurrent.*;
 
+/**
+ * 线程对拒绝服务的处理策略
+ */
+
 public class AbortPolictTest {
     public static void main(String[] args) {
         int corePoolSize = 5;
@@ -28,7 +32,7 @@ public class AbortPolictTest {
                 keepActiveTime,
                 TimeUnit.SECONDS,
                 queue,
-                handler3);
+                handler1);
 
         for (int i = 0; i < 100; i++) {
             executor.execute(new test());
