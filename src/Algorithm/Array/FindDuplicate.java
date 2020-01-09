@@ -67,7 +67,8 @@ public class FindDuplicate {
     }
 
     /**
-     * @Description: 将数组内的数据当成索引，重复数字的位置会被访问两次，第一次访问时，将数据标成负的
+     * @Description: 将数组内的数据当成索引，
+     * 重复数字的位置会被访问两次，第一次访问时，将数据标成负的
      * @Param:  [arr]
      * @Return: int
      * @Author: FANG MIAO
@@ -125,9 +126,10 @@ public class FindDuplicate {
      * @Date: 2019/12/30 13:28
      * @Time Complexity: O(N)
      * @Space ComplexityL O()
-     * 因为总共有N+M个数字，N+1到N+M的数字不能通过“索引”找到，所以要有一定的机制能够访问到后面的数据
+     * 因为总共有N+M个数字，N+1到N+M的数字不能通过“索引”找到，
+     * 所以要有一定的机制能够访问到后面的数据
      */
-    public static Set<Integer> findDups(int[] arr, int n) {//1-n个数字
+    public static Set<Integer> findDups(int[] arr, int n) {//1~n个数字
         Set<Integer> res = new HashSet<>();
         int len = arr.length;
         int dup = len - n;

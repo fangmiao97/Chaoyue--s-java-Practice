@@ -71,7 +71,8 @@ public class FindMinInRotationArray {
         }
         //arr[low]==arr[mid]==arr[high]
         else {
-            return Math.min(getMin(arr, low, mid - 1), getMin(arr, mid + 1, high));
+            return Math.min(getMin(arr, low, mid - 1),
+                    getMin(arr, mid + 1, high));
         }
     }
 

@@ -23,7 +23,8 @@ public class MaxSubArray {
         int maxSubArr = arr[0];
 
         for (int i = 1; i < arr.length; i++) {
-            maxSoFar = Math.max(maxSoFar + arr[i], arr[i]);//要么是当前子数组加当前数据，要么重新开始
+            maxSoFar = Math.max(maxSoFar + arr[i], arr[i]);//要么是当前子数组加当前数据，
+            // 要么重新开始
             maxSubArr = Math.max(maxSubArr, maxSoFar);
         }
 

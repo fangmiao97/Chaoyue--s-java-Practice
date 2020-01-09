@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/huawei/ipuls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/huawei/er.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Review/JstackUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/FutureTaskTEst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/FutureTaskTEst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/RejectExecutionPolicy/AbortPolictTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/RejectExecutionPolicy/AbortPolictTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/RejectExecutionPolicy/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/RejectExecutionPolicy/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/IoDHSingletonLoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/IoDHSingletonLoadBalancer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/InterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadTest/FutureTaskTEst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/FutureTaskTEst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadTest/RejectExecutionPolicy/AbortPolictTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/RejectExecutionPolicy/AbortPolictTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/FindDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/FindDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/FindMinInRotationArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/FindMinInRotationArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/MaxSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/MaxSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/IoDHSingletonLoadBalancer$LazyHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/IoDHSingletonLoadBalancer$LazyHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/IoDHSingletonLoadBalancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/IoDHSingletonLoadBalancer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/Array/FindDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/Array/FindDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/Array/FindMinInRotationArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/Array/FindMinInRotationArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/Array/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/Array/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consumerAndProductor/Pool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consumerAndProductor/Pool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,9 +103,48 @@
       <recent name="DesignPatterns.ObserverPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ipuls">
-    <configuration name="BashCovert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.huawei.BashCovert" />
+  <component name="RunManager" selected="Application.er">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.BinaryTree" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CAPBlockingQueueImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consumerAndProductor.CAPBlockingQueueImpl" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="consumerAndProductor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindMid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Array.FindMid" />
+      <module name="javaPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="er" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.huawei.er" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
@@ -111,51 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review.sorting.CountingSort" />
+    <configuration name="process" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consumerAndProductor.process" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Review.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review.sorting.MergeSort" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Review.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review.sorting.ShellSort" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Review.sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ipuls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.huawei.ipuls" />
-      <module name="javaPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.huawei.*" />
+          <option name="PATTERN" value="consumerAndProductor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +170,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountingSort" />
-      <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.ShellSort" />
-      <item itemvalue="Application.BashCovert" />
-      <item itemvalue="Application.ipuls" />
+      <item itemvalue="Application.CAPBlockingQueueImpl" />
+      <item itemvalue="Application.process" />
+      <item itemvalue="Application.FindMid" />
+      <item itemvalue="Application.BinaryTree" />
+      <item itemvalue="Application.er" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ipuls" />
-        <item itemvalue="Application.BashCovert" />
-        <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.CountingSort" />
+        <item itemvalue="Application.er" />
+        <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application.FindMid" />
+        <item itemvalue="Application.process" />
+        <item itemvalue="Application.CAPBlockingQueueImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +270,10 @@
       <workItem from="1577704818529" duration="17505000" />
       <workItem from="1578012554049" duration="27810000" />
       <workItem from="1578233490417" duration="11777000" />
-      <workItem from="1578312135649" duration="8480000" />
+      <workItem from="1578312135649" duration="16458000" />
+      <workItem from="1578449466998" duration="45000" />
+      <workItem from="1578449558038" duration="16423000" />
+      <workItem from="1578567614087" duration="612000" />
     </task>
     <servers />
   </component>
@@ -305,42 +314,46 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="534" y="406" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1500.1000@0.0.1500.1000" timestamp="1576925195518" />
-    <state x="483" y="255" key="FileChooserDialogImpl" timestamp="1578365744062">
+    <state x="483" y="255" key="FileChooserDialogImpl" timestamp="1578457245109">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="483" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1578365744062" />
-    <state width="1457" height="246" key="GridCell.Tab.0.bottom" timestamp="1578321550245">
+    <state x="483" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1578457245109" />
+    <state width="1457" height="246" key="GridCell.Tab.0.bottom" timestamp="1578475101354">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1578321550245" />
-    <state width="1457" height="246" key="GridCell.Tab.0.center" timestamp="1578321550245">
+    <state width="1457" height="246" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1578475101354" />
+    <state width="1457" height="246" key="GridCell.Tab.0.center" timestamp="1578475101354">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1578321550245" />
-    <state width="1457" height="246" key="GridCell.Tab.0.left" timestamp="1578321550244">
+    <state width="1457" height="246" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1578475101354" />
+    <state width="1457" height="246" key="GridCell.Tab.0.left" timestamp="1578475101354">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1578321550244" />
-    <state width="1457" height="246" key="GridCell.Tab.0.right" timestamp="1578321550245">
+    <state width="1457" height="246" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1578475101354" />
+    <state width="1457" height="246" key="GridCell.Tab.0.right" timestamp="1578475101354">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1578321550245" />
-    <state width="1457" height="245" key="GridCell.Tab.1.bottom" timestamp="1578312114892">
+    <state width="1457" height="246" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1578475101354" />
+    <state width="1457" height="245" key="GridCell.Tab.1.bottom" timestamp="1578473216574">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="245" key="GridCell.Tab.1.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1578312114892" />
-    <state width="1457" height="245" key="GridCell.Tab.1.center" timestamp="1578312114892">
+    <state width="1457" height="245" key="GridCell.Tab.1.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1578473216574" />
+    <state width="1457" height="245" key="GridCell.Tab.1.center" timestamp="1578473216574">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="245" key="GridCell.Tab.1.center/0.0.1500.1000@0.0.1500.1000" timestamp="1578312114892" />
-    <state width="1457" height="245" key="GridCell.Tab.1.left" timestamp="1578312114892">
+    <state width="1457" height="245" key="GridCell.Tab.1.center/0.0.1500.1000@0.0.1500.1000" timestamp="1578473216574" />
+    <state width="1457" height="245" key="GridCell.Tab.1.left" timestamp="1578473216573">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="245" key="GridCell.Tab.1.left/0.0.1500.1000@0.0.1500.1000" timestamp="1578312114892" />
-    <state width="1457" height="245" key="GridCell.Tab.1.right" timestamp="1578312114892">
+    <state width="1457" height="245" key="GridCell.Tab.1.left/0.0.1500.1000@0.0.1500.1000" timestamp="1578473216573" />
+    <state width="1457" height="245" key="GridCell.Tab.1.right" timestamp="1578473216574">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="245" key="GridCell.Tab.1.right/0.0.1500.1000@0.0.1500.1000" timestamp="1578312114892" />
+    <state width="1457" height="245" key="GridCell.Tab.1.right/0.0.1500.1000@0.0.1500.1000" timestamp="1578473216574" />
+    <state x="331" y="234" key="IDE.errors.dialog" timestamp="1578384910666">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="331" y="234" key="IDE.errors.dialog/0.0.1500.1000@0.0.1500.1000" timestamp="1578384910666" />
     <state x="129" y="146" width="1172" height="714" key="SettingsEditor" timestamp="1577081402488">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -353,40 +366,30 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="522" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1576930368032" />
-    <state x="431" y="106" width="867" height="786" key="find.popup" timestamp="1578384669045">
+    <state x="431" y="106" width="867" height="786" key="find.popup" timestamp="1578450862055">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="431" y="106" width="867" height="786" key="find.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1578384669045" />
+    <state x="431" y="106" width="867" height="786" key="find.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1578450862055" />
     <state x="125" y="109" key="new project wizard" timestamp="1575732769720">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="125" y="109" key="new project wizard/0.0.1500.1000@0.0.1500.1000" timestamp="1575732769720" />
-    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1578313999740">
+    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1578457249312">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1578313999740" />
+    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1578457249311" />
     <state x="409" y="232" key="run.anything.popup" timestamp="1575953208552">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="409" y="232" key="run.anything.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1575953208552" />
-    <state x="458" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1578384578405">
+    <state x="459" y="262" width="672" height="678" key="search.everywhere.popup" timestamp="1578457222686">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="458" y="261" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1578384578405" />
+    <state x="459" y="262" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1578457222686" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Algorithm/BinaryTree/BinaryTree.java</url>
-          <line>140</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Algorithm/Array/Subset.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Review/sorting/CountingSort.java</url>
           <line>36</line>

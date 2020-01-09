@@ -20,7 +20,7 @@ public class Pool {
 
 
     /**
-     * 生产者将生产出来的东西
+     * 生产者将生产出来的东西，放到产品池
      * @param product
      */
     public synchronized void push(Product product) {
