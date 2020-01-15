@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/huawei/er.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Review/JstackUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/huawei/Sums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/FindDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/FindDuplicate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/FindMinInRotationArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/FindMinInRotationArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/MaxSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/MaxSubArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/IoDHSingletonLoadBalancer$LazyHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/IoDHSingletonLoadBalancer$LazyHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/IoDHSingletonLoadBalancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/IoDHSingletonLoadBalancer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm/Array/FindDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/Array/FindDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm/Array/FindMinInRotationArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/Array/FindMinInRotationArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm/Array/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/Array/MaxSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consumerAndProductor/Pool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consumerAndProductor/Pool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Me.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/Me.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/ClassExe/StaticBlockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Review/ClassExe/StaticBlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/ClassExe/StaticBlockTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +93,7 @@
       <recent name="DesignPatterns.ObserverPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.er">
+  <component name="RunManager" selected="Application.Sums">
     <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.BinaryTree" />
       <module name="javaPractice" />
@@ -117,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CAPBlockingQueueImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="consumerAndProductor.CAPBlockingQueueImpl" />
+    <configuration name="FindMid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Array.FindMid" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="consumerAndProductor.*" />
+          <option name="PATTERN" value="Algorithm.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.Array.FindMid" />
+    <configuration name="Sums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.huawei.Sums" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.Array.*" />
+          <option name="PATTERN" value="LeetCode.huawei.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CAPBlockingQueueImpl" />
       <item itemvalue="Application.process" />
       <item itemvalue="Application.FindMid" />
       <item itemvalue="Application.BinaryTree" />
       <item itemvalue="Application.er" />
+      <item itemvalue="Application.Sums" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sums" />
         <item itemvalue="Application.er" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.FindMid" />
         <item itemvalue="Application.process" />
-        <item itemvalue="Application.CAPBlockingQueueImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +263,7 @@
       <workItem from="1578312135649" duration="16458000" />
       <workItem from="1578449466998" duration="45000" />
       <workItem from="1578449558038" duration="16423000" />
-      <workItem from="1578567614087" duration="612000" />
+      <workItem from="1578567614087" duration="6815000" />
     </task>
     <servers />
   </component>
@@ -318,22 +308,22 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="483" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1578457245109" />
-    <state width="1457" height="246" key="GridCell.Tab.0.bottom" timestamp="1578475101354">
+    <state width="1457" height="246" key="GridCell.Tab.0.bottom" timestamp="1578900834449">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1578475101354" />
-    <state width="1457" height="246" key="GridCell.Tab.0.center" timestamp="1578475101354">
+    <state width="1457" height="246" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1578900834449" />
+    <state width="1457" height="246" key="GridCell.Tab.0.center" timestamp="1578900834448">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1578475101354" />
-    <state width="1457" height="246" key="GridCell.Tab.0.left" timestamp="1578475101354">
+    <state width="1457" height="246" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1578900834448" />
+    <state width="1457" height="246" key="GridCell.Tab.0.left" timestamp="1578900834446">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1578475101354" />
-    <state width="1457" height="246" key="GridCell.Tab.0.right" timestamp="1578475101354">
+    <state width="1457" height="246" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1578900834446" />
+    <state width="1457" height="246" key="GridCell.Tab.0.right" timestamp="1578900834449">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="246" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1578475101354" />
+    <state width="1457" height="246" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1578900834449" />
     <state width="1457" height="245" key="GridCell.Tab.1.bottom" timestamp="1578473216574">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -366,10 +356,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="522" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1576930368032" />
-    <state x="431" y="106" width="867" height="786" key="find.popup" timestamp="1578450862055">
+    <state x="431" y="106" width="867" height="786" key="find.popup" timestamp="1578893000368">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="431" y="106" width="867" height="786" key="find.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1578450862055" />
+    <state x="431" y="106" width="867" height="786" key="find.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1578893000368" />
     <state x="125" y="109" key="new project wizard" timestamp="1575732769720">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -378,6 +368,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1578457249311" />
+    <state x="449" y="126" key="refactoring.ChangeSignatureDialog" timestamp="1578899923768">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="449" y="126" key="refactoring.ChangeSignatureDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1578899923768" />
     <state x="409" y="232" key="run.anything.popup" timestamp="1575953208552">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>

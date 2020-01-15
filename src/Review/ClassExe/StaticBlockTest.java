@@ -35,6 +35,8 @@ class Me extends Parent {
 
     static final int staticFinal = 23;
 
+    public final int justFinalInt = 99;//必须要实例化才能用
+
     static int myAge = 22;
 
     public Me() {
@@ -60,6 +62,10 @@ public class StaticBlockTest {
 
         //static final修饰的类变量（编译期静态变量）不会引发初始化
         System.out.println("static final修饰的类变量"+Me.staticFinal);
+
+        Me one = new Me();
+        System.out.println(one.justFinalInt);//只用final修饰的是常量，需要实例化一个对象才可以用
+        //one.justFinalInt = 34;报错，因为常量不能修改
 
         //调用静态方法，读取静态字段（只有static修饰的类变量）都会初始化
          System.out.println(Me.myAge);
