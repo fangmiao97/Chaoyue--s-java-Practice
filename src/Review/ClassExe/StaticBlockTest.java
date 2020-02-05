@@ -63,6 +63,8 @@ public class StaticBlockTest {
         //static final修饰的类变量（编译期静态变量）不会引发初始化
         System.out.println("static final修饰的类变量"+Me.staticFinal);
 
+        //System.out.println("子类引用父类的静态变量，只会触发父类的初始化"+Me.parentAge);
+
         Me one = new Me();
         System.out.println(one.justFinalInt);//只用final修饰的是常量，需要实例化一个对象才可以用
         //one.justFinalInt = 34;报错，因为常量不能修改

@@ -13,13 +13,17 @@ public class Client {
         AbstrctSubject abstrctSubject = null;
 
         proxy = new Proxy(new RealSubject());
-        abstrctSubject = (AbstrctSubject) java.lang.reflect.Proxy.newProxyInstance(AbstrctSubject.class.getClassLoader(), new Class[]{AbstrctSubject.class}, proxy);
+        abstrctSubject = (AbstrctSubject) java.lang.reflect.Proxy.newProxyInstance(
+                AbstrctSubject.class.getClassLoader(),
+                new Class[]{AbstrctSubject.class}, proxy);
         abstrctSubject.request();
 
         System.out.println("--------");
 
         proxy = new Proxy(new RealSubjectB());
-        abstrctSubject = (AbstrctSubject) java.lang.reflect.Proxy.newProxyInstance(AbstrctSubject.class.getClassLoader(), new Class[]{AbstrctSubject.class}, proxy);
+        abstrctSubject = (AbstrctSubject) java.lang.reflect.Proxy.newProxyInstance(
+                AbstrctSubject.class.getClassLoader(),
+                new Class[]{AbstrctSubject.class}, proxy);
         abstrctSubject.request();
     }
 }

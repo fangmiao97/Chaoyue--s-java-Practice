@@ -58,12 +58,15 @@ public class TryCatchFinallyTest {
         block(1);
         System.out.println(sRet);
         sRet = "";
+        System.out.println();
 
         block(2);
         System.out.println(sRet);
+        System.out.println();
 
-        System.out.println(returnValue());
+        System.out.println("return value is " + returnValue());
 
+        System.out.println();
         //System.out.println("before try");
         //return;
         try {

@@ -1,4 +1,4 @@
-package DesignPatterns;
+package DesignPatterns.SingletonPattern;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +24,8 @@ public class IoDHSingletonLoadBalancer {
     //静态类，直到jvm确定其会被使用，才会初始化
     //也就是在执行getInstance的时候，才会初始化LazyHolder，并初始化静态变量instance
     private static class LazyHolder {
+        //注意这里是static final，即常量。说明不需要实例化LazyHolder这个类来得到instance，
+        //因为常量在 准备 阶段已经被赋为最终值，即执行了new constructor().
         static final IoDHSingletonLoadBalancer instance = new IoDHSingletonLoadBalancer();
     }
 

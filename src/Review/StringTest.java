@@ -46,6 +46,11 @@ public class StringTest {
         sb.append(3);
         sb.append(4);
         sb.deleteCharAt(sb.length() - 1);
+        sb.insert(0, 5);
+        String ss = "50";
+        System.out.println(ss.compareTo(sb.toString()));
         System.out.println(sb.toString());
+        sb.setLength(1);//截断sb
+        System.out.println(sb);
     }
 }
