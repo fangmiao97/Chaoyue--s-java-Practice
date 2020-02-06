@@ -54,7 +54,8 @@ public class LayerPrint {
             return 1;
         }
         else//转化成打印子树的level-1层
-            return printAtLevel(root.left, level - 1) + printAtLevel(root.right, level - 1);
+            return printAtLevel(root.left, level - 1)
+                    + printAtLevel(root.right, level - 1);
     }
 
     public static void main(String[] args) {

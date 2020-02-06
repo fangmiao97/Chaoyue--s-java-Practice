@@ -1,5 +1,8 @@
 package Review.sorting;
 
+/*
+ 计数排序
+ */
 public class CountingSort {
     public static void sort(int[] arr) {
         int max = getMaxValue(arr);

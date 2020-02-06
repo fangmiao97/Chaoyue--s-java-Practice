@@ -5,7 +5,7 @@ package DesignPatterns.AdapterPattern;
  */
 public class CipherAdapter extends DataOperation{
 
-    private Cipher cipher;
+    private Cipher cipher;//关联adaptee
 
     public CipherAdapter() {
         this.cipher = new Cipher();
