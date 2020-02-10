@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode/ByteDance/TopKLenArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/LayerPrint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/BinaryTree/LayerPrint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/SingletonPattern/IoDHSingletonLoadBalancer$LazyHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/SingletonPattern/IoDHSingletonLoadBalancer$LazyHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/SingletonPattern/IoDHSingletonLoadBalancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/DesignPatterns/SingletonPattern/IoDHSingletonLoadBalancer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/review/InterfaceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithm/BinaryTree/LayerPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/BinaryTree/LayerPrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/CipherAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AdapterPattern/CipherAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/InterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Review/sorting/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Review/sorting/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/FindDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/FindDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/KMinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/Algorithm/Array/KMinHeap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/completionServiceTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/completionServiceTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/completionServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaPractice/ThreadTest/completionServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/Array/FindDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/Array/FindDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithm/Array/KMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithm/Array/KMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode/AlloctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode/AlloctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThreadTest/completionServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThreadTest/completionServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,13 +97,13 @@
       <recent name="DesignPatterns.ObserverPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LayerPrint">
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.StrategyPattern.Client" />
+  <component name="RunManager" selected="Application.SinglePool">
+    <configuration name="ExeInvokeAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest.ExeInvokeAll" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.StrategyPattern.*" />
+          <option name="PATTERN" value="ThreadTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LayerPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.BinaryTree.LayerPrint" />
+    <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest.JoinTest" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.BinaryTree.*" />
+          <option name="PATTERN" value="ThreadTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueBy2Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithm.StackAndQueue.QueueBy2Stacks" />
+    <configuration name="JoinTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest.JoinTest2" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Algorithm.StackAndQueue.*" />
+          <option name="PATTERN" value="ThreadTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Review.SynchronizedTest" />
+    <configuration name="SinglePool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest.SinglePool" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Review.*" />
+          <option name="PATTERN" value="ThreadTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopKLenArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCode.ByteDance.TopKLenArray" />
+    <configuration name="completionServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadTest.completionServiceTest" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCode.ByteDance.*" />
+          <option name="PATTERN" value="ThreadTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,19 +164,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client (3)" />
-      <item itemvalue="Application.TopKLenArray" />
-      <item itemvalue="Application.SynchronizedTest" />
-      <item itemvalue="Application.QueueBy2Stacks" />
-      <item itemvalue="Application.LayerPrint" />
+      <item itemvalue="Application.completionServiceTest" />
+      <item itemvalue="Application.ExeInvokeAll" />
+      <item itemvalue="Application.JoinTest" />
+      <item itemvalue="Application.JoinTest2" />
+      <item itemvalue="Application.SinglePool" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LayerPrint" />
-        <item itemvalue="Application.QueueBy2Stacks" />
-        <item itemvalue="Application.SynchronizedTest" />
-        <item itemvalue="Application.TopKLenArray" />
-        <item itemvalue="Application.Client (3)" />
+        <item itemvalue="Application.SinglePool" />
+        <item itemvalue="Application.JoinTest2" />
+        <item itemvalue="Application.JoinTest" />
+        <item itemvalue="Application.ExeInvokeAll" />
+        <item itemvalue="Application.completionServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +279,7 @@
       <workItem from="1580646457558" duration="617000" />
       <workItem from="1580698674352" duration="650000" />
       <workItem from="1580702331993" duration="3294000" />
-      <workItem from="1580712732837" duration="35235000" />
+      <workItem from="1580712732837" duration="53645000" />
     </task>
     <servers />
   </component>
@@ -329,22 +328,22 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="483" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1580646479145" />
-    <state width="1457" height="279" key="GridCell.Tab.0.bottom" timestamp="1580993974472">
+    <state width="1457" height="279" key="GridCell.Tab.0.bottom" timestamp="1581053401093">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="279" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1580993974472" />
-    <state width="1457" height="279" key="GridCell.Tab.0.center" timestamp="1580993974468">
+    <state width="1457" height="279" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1581053401093" />
+    <state width="1457" height="279" key="GridCell.Tab.0.center" timestamp="1581053401092">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="279" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1580993974468" />
-    <state width="1457" height="279" key="GridCell.Tab.0.left" timestamp="1580993974456">
+    <state width="1457" height="279" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1581053401092" />
+    <state width="1457" height="279" key="GridCell.Tab.0.left" timestamp="1581053401092">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="279" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1580993974456" />
-    <state width="1457" height="279" key="GridCell.Tab.0.right" timestamp="1580993974469">
+    <state width="1457" height="279" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1581053401092" />
+    <state width="1457" height="279" key="GridCell.Tab.0.right" timestamp="1581053401092">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state width="1457" height="279" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1580993974469" />
+    <state width="1457" height="279" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1581053401092" />
     <state width="1457" height="245" key="GridCell.Tab.1.bottom" timestamp="1578473216574">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -377,10 +376,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="522" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1576930368032" />
-    <state x="430" y="106" width="867" height="786" key="find.popup" timestamp="1580980187353">
+    <state x="430" y="106" width="867" height="786" key="find.popup" timestamp="1581137781521">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="430" y="106" width="867" height="786" key="find.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1580980187353" />
+    <state x="430" y="106" width="867" height="786" key="find.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1581137781521" />
     <state x="125" y="109" key="new project wizard" timestamp="1575732769720">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
@@ -397,10 +396,10 @@
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
     <state x="409" y="232" key="run.anything.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1575953208552" />
-    <state x="465" y="268" width="672" height="678" key="search.everywhere.popup" timestamp="1580712693961">
+    <state x="466" y="269" width="672" height="678" key="search.everywhere.popup" timestamp="1581043502426">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="465" y="268" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1580712693961" />
+    <state x="466" y="269" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1581043502426" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaPractice$MutilClientDemo.ic" NAME="MutilClientDemo Coverage Results" MODIFIED="1565445636687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -78,8 +78,6 @@ public class FindDuplicate {
      */
     public static int findDupIndex(int[] arr) {
 
-        int res = 0;
-
         int index = 0;
         while (true) {
             if (arr[index] > 0) {

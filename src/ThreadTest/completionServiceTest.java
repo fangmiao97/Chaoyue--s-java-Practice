@@ -12,7 +12,8 @@ public class completionServiceTest {
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         ExecutorService executorService = Executors.newFixedThreadPool(10);
-        ExecutorCompletionService<Integer> integerExecutorCompletionService = new ExecutorCompletionService<>(executorService);
+        ExecutorCompletionService<Integer> integerExecutorCompletionService =
+                new ExecutorCompletionService<>(executorService);
 
         for (int i = 0; i < 30; i++) {
             integerExecutorCompletionService.submit(new Callable<Integer>() {

@@ -25,9 +25,9 @@ public class KMinHeap {
             heapify(res, i, res.length);
         }
         //构造好由前k个元素组成的最小堆
-        //如果后面的元素比堆顶大，则与堆顶交换
+        //如果后面的元素比堆顶小，则与堆顶交换
         for (int i = k; i < arr.length; i++) {
-            if (arr[i] > res[0]) {
+            if (arr[i] < res[0]) {
                 res[0] = arr[i];
                 heapify(res, 0, res.length);
             }
