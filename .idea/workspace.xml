@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="adf3906e-668c-4f15-8161-78eaded27044" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/LeetCode/Shopee/Median.java" afterDir="false" />
@@ -42,6 +60,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -53,21 +72,22 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fangmiao97.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -91,13 +111,13 @@
       <recent name="DesignPatterns.ObserverPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductNum">
-    <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.JoinTest" />
+  <component name="RunManager" selected="Application.KMinHeap">
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Review.sorting.HeapSort" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadTest.*" />
+          <option name="PATTERN" value="Review.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.JoinTest2" />
+    <configuration name="KMinHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithm.Array.KMinHeap" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadTest.*" />
+          <option name="PATTERN" value="Algorithm.Array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglePool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreadTest.SinglePool" />
+    <configuration name="SortCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode.SortCount" />
       <module name="javaPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ThreadTest.*" />
+          <option name="PATTERN" value="LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,33 +178,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JoinTest" />
-      <item itemvalue="Application.JoinTest2" />
-      <item itemvalue="Application.SinglePool" />
       <item itemvalue="Application.Median" />
       <item itemvalue="Application.ProductNum" />
+      <item itemvalue="Application.SortCount" />
+      <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.KMinHeap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KMinHeap" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.SortCount" />
         <item itemvalue="Application.ProductNum" />
         <item itemvalue="Application.Median" />
-        <item itemvalue="Application.SinglePool" />
-        <item itemvalue="Application.JoinTest2" />
-        <item itemvalue="Application.JoinTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -290,123 +298,38 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="468" y="354" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1577081400493">
+    <state x="506" y="299" width="507" height="473" key="#Notifications" timestamp="1595602809216">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="468" y="354" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1577081400493" />
-    <state x="206" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580136149424">
+    <state x="506" y="299" width="507" height="473" key="#Notifications/0.0.1500.1000@0.0.1500.1000" timestamp="1595602809216" />
+    <state width="1458" height="269" key="GridCell.Tab.0.bottom" timestamp="1595640149795">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="206" y="155" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1580136149424" />
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser" timestamp="1577674396020">
+    <state width="1458" height="269" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1595640149795" />
+    <state width="1458" height="269" key="GridCell.Tab.0.center" timestamp="1595640149795">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="556" y="210" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1577674396020" />
-    <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1575696850580">
+    <state width="1458" height="269" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1595640149795" />
+    <state width="1458" height="269" key="GridCell.Tab.0.left" timestamp="1595640149794">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="571" y="191" width="476" height="617" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1575696850580" />
-    <state x="432" y="227" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582700193580">
+    <state width="1458" height="269" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1595640149794" />
+    <state width="1458" height="269" key="GridCell.Tab.0.right" timestamp="1595640149795">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="432" y="227" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1582700193580" />
-    <state x="534" y="406" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1576925195518">
+    <state width="1458" height="269" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1595640149795" />
+    <state x="252" y="145" key="SettingsEditor" timestamp="1595638643054">
       <screen x="0" y="0" width="1500" height="1000" />
     </state>
-    <state x="534" y="406" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1500.1000@0.0.1500.1000" timestamp="1576925195518" />
-    <state x="481" y="246" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1581748231382">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state x="481" y="246" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1581748231382" />
-    <state x="483" y="255" key="FileChooserDialogImpl" timestamp="1582703053428">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state x="483" y="255" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1582703053428" />
-    <state width="1457" height="279" key="GridCell.Tab.0.bottom" timestamp="1581751014819">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state width="1457" height="279" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1581751014819" />
-    <state width="1457" height="279" key="GridCell.Tab.0.center" timestamp="1581751014818">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state width="1457" height="279" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1581751014818" />
-    <state width="1457" height="279" key="GridCell.Tab.0.left" timestamp="1581751014817">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state width="1457" height="279" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1581751014817" />
-    <state width="1457" height="279" key="GridCell.Tab.0.right" timestamp="1581751014818">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state width="1457" height="279" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1581751014818" />
-    <state width="1457" height="245" key="GridCell.Tab.1.bottom" timestamp="1581748218794">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state width="1457" height="245" key="GridCell.Tab.1.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1581748218794" />
-    <state width="1457" height="245" key="GridCell.Tab.1.center" timestamp="1581748218794">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state width="1457" height="245" key="GridCell.Tab.1.center/0.0.1500.1000@0.0.1500.1000" timestamp="1581748218794" />
-    <state width="1457" height="245" key="GridCell.Tab.1.left" timestamp="1581748218794">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state width="1457" height="245" key="GridCell.Tab.1.left/0.0.1500.1000@0.0.1500.1000" timestamp="1581748218794" />
-    <state width="1457" height="245" key="GridCell.Tab.1.right" timestamp="1581748218794">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state width="1457" height="245" key="GridCell.Tab.1.right/0.0.1500.1000@0.0.1500.1000" timestamp="1581748218794" />
-    <state x="331" y="234" key="IDE.errors.dialog" timestamp="1578384910666">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state x="331" y="234" key="IDE.errors.dialog/0.0.1500.1000@0.0.1500.1000" timestamp="1578384910666" />
-    <state x="129" y="146" width="1172" height="714" key="SettingsEditor" timestamp="1577081402488">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state x="129" y="146" width="1172" height="714" key="SettingsEditor/0.0.1500.1000@0.0.1500.1000" timestamp="1577081402488" />
-    <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1578208722838">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1500.1000@0.0.1500.1000" timestamp="1578208722838" />
-    <state width="756" height="506" key="XDebugger.FullValuePopup" timestamp="1581748099427">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state width="756" height="506" key="XDebugger.FullValuePopup/0.0.1500.1000@0.0.1500.1000" timestamp="1581748099427" />
-    <state x="522" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1576930368032">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state x="522" y="203" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1576930368032" />
-    <state x="430" y="106" width="867" height="786" key="find.popup" timestamp="1582245265931">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state x="430" y="106" width="867" height="786" key="find.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1582245265931" />
-    <state x="125" y="109" key="new project wizard" timestamp="1575732769720">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state x="125" y="109" key="new project wizard/0.0.1500.1000@0.0.1500.1000" timestamp="1575732769720" />
-    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1578457249312">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state x="153" y="100" width="1319" height="844" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1578457249311" />
-    <state x="449" y="126" key="refactoring.ChangeSignatureDialog" timestamp="1578899923768">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state x="449" y="126" key="refactoring.ChangeSignatureDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1578899923768" />
-    <state x="409" y="232" key="run.anything.popup" timestamp="1575953208552">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state x="409" y="232" key="run.anything.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1575953208552" />
-    <state x="467" y="270" width="672" height="678" key="search.everywhere.popup" timestamp="1581748878726">
-      <screen x="0" y="0" width="1500" height="1000" />
-    </state>
-    <state x="467" y="270" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1581748878726" />
+    <state x="252" y="145" key="SettingsEditor/0.0.1500.1000@0.0.1500.1000" timestamp="1595638643054" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaPractice$MutilClientDemo.ic" NAME="MutilClientDemo Coverage Results" MODIFIED="1565445636687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
